@@ -8,4 +8,8 @@ foreach($files as $file){
     }
 }
 
+$jsonsass = json_encode($sassfiles);
+
 $httpsend = new HttpResponse();
+$httpsend->setData("getMediafiles.php", $jsonsass);
+$httpsend->send();

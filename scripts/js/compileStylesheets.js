@@ -13,6 +13,23 @@ sass.options({
     sourceMapOmiturl : true,
 }, function callback(){})
 
-$.get('../', data?: ?, success: fn(data: string, textStatus: string, req: XMLHttpRequest), dataType?: string)
+var sassfileobj;
 
-sass.compileFile()
+
+$.get('../php/getMediafiles.php', function(data){
+    sassfileobj = JSON.parse(data);
+}
+)
+
+for(var i=0; i<sassfileobj.length; i++){
+  var sassdata;
+    sass.compileFile(sassfileobj[i], function(data){
+        if(data !== null){
+            sass.writeFile(sassfileobj[i], sassdata.text, function(sucsess){if(!sucsess){alert("")}})
+        }
+        else{
+          alert(sassfileobj[1]+" is null");
+        }
+    });
+
+}
