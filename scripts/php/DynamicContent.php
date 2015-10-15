@@ -105,4 +105,3 @@ class DynamicContent{
         return $Attributes;
     }
 }
-
