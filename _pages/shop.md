@@ -1,6 +1,6 @@
 ---
 layout: default
-title: does
+title: shop
 permalink: /shop/
 ---
 #Hello

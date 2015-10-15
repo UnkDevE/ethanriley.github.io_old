@@ -14,9 +14,8 @@ published: true
 include: ['_pages']
 
 sass:
-  sass_dir: css
-  sass_partial_dir: _sass
-  style: nested
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 markdown: kramdown
