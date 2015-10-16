@@ -1,12 +1,25 @@
 #navbar{
-  padding:0.2em;
-  background-color: #AAF;
-  margin:0%;
-  text-align: center;
-  li{
-    padding: 1em;
-    background-color: #AAA;
-    display:inline;
-    list-style:none;
+  position: fixed;
+  left:0em;
+  top:0em;
+  width: 100%;
+  background-color: #40c4ff;
+  padding-top:0.1%;
+
+  #Vnavbar{
+      display: inline-block;
+    img{
+      vertical-align: bottom;
+      height: 2em;
+      width: 2em;
+    }
+  }
+  #Hnavbar{
+      display: inline-block;
+    position: relative;
+    p{
+      font-size: 2em;
+      color:#101010;
+    }
   }
 }

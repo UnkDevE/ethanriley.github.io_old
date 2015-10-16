@@ -11,7 +11,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 published: true
 
-include: ['_pages']
+
+include: ['_pages', '_static']
 
 sass:
   sass_dir: _sass

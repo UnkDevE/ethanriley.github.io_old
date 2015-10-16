@@ -3,18 +3,17 @@
 {% include head.html %}
 
 <html>
+<body>
     <div id="navbar" class="style">
-      <nav>
-        <ul>
-        {% for post in site.pages %}
-          {%if post.title != null%}
-            <li><a href="{{post.url}}">{{post.title}}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-      </nav>
+      <div id="Vnavbar">
+        <img alt="home" src="{{site.data.variable.homeimg}}">
+      </div>
+        <div id="Hnavbar">
+            <p>{{page.title | prepend site.baseurl}}</p>
+        </div>
     </div>
     <main class="style">
          {{content}}
     </main>
+  </body>
 </html>
