@@ -4,16 +4,24 @@
 
 <html>
 <body>
-    <div id="navbar" class="style">
-      <div id="Vnavbar">
-        <img alt="home" src="{{site.data.variable.homeimg}}">
-      </div>
-        <div id="Hnavbar">
-            <p>{{page.title | prepend site.baseurl}}</p>
+      <div id="navbar" class="style">
+        <div id="Vnavbar" class="style">
+            <div class="navicon">
         </div>
+        <div id="menu">
+          {%for page in site.pages %}
+              <p></p>
+          {% endfor %}
+        </div>
+      </div>
+      <div id="title">
+        <span>{{page.title}}</span>
     </div>
-    <main class="style">
-         {{content}}
-    </main>
+    </div>
+    <div id="main" class="style">
+      <main>
+          {{content}}
+      </main>
+  </div>
   </body>
 </html>

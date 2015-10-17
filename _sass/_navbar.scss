@@ -3,23 +3,37 @@
   left:0em;
   top:0em;
   width: 100%;
-  background-color: #40c4ff;
-  padding-top:0.1%;
-
+  background-color: #00ACC1 ;
+  #title{//exists beacuse Jquery can get acc. height
+    padding-top:0.65vh;
+    padding-bottom: 0.65vh;
+    display: inline-block;
+    span{
+      word-wrap: normal;
+      font-size-adjust: auto;
+      padding-left: 1.750em;
+      display: inline;
+      font-size: 1.45em;
+      color:#ffffff;
+    }
+  }
   #Vnavbar{
+      position: relative;
+      left:0.75em;
       display: inline-block;
-    img{
-      vertical-align: bottom;
-      height: 2em;
-      width: 2em;
+      .navicon{
+          position: fixed;
+          vertical-align: bottom;
+          top:0.65em;
+          height: 0.15em;
+          width: 1em;
+          background: #111;
+          border-radius: 5%;
+          box-shadow: 0 0.325em 0 0 black,
+          0 0.65em 0 0 black;
+      }
+      #menu{
+          display: none;
+      }
     }
-  }
-  #Hnavbar{
-      display: inline-block;
-    position: relative;
-    p{
-      font-size: 2em;
-      color:#101010;
-    }
-  }
 }

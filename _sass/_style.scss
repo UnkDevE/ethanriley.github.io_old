@@ -11,6 +11,25 @@ a:hover{
   text-decoration:underline;
 }
 body{
-  background: #01579b ;
-  color:#f5f5f5;
+  background: #EEEEEE;
+
+  .style{
+    #{headings(1,6)}{
+        color:#212121;
+        font-weight: normal;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.15em;
+      }
+      color: #424242;
+  }
+
+}
+main{
+    margin-top:2.45em; //needs to be 1/2 of #
+    margin-left:1.65vh;
+    position: sticky;
 }

@@ -1,0 +1,7 @@
+@function headings($start, $end){
+    $x:"";
+    @for $i from $start through $end{
+      $x:$x+"h#{$i},";
+    }
+    @return $x;
+}
