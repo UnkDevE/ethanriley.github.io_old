@@ -48,6 +48,8 @@
     display: none;
 }
 .accordion-content:target{
+  padding 0;
+  margin: 0;
   background: #37474f;
   left:0;
   top:0;
