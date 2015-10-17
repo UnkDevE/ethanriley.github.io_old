@@ -4,7 +4,8 @@
   top:0em;
   width: 100%;
   background-color: #00ACC1 ;
-  #title{//exists beacuse Jquery can get acc. height
+  #title{
+    left:0%;
     padding-top:0.65vh;
     padding-bottom: 0.65vh;
     display: inline-block;
@@ -31,9 +32,53 @@
           border-radius: 5%;
           box-shadow: 0 0.325em 0 0 black,
           0 0.65em 0 0 black;
-      }
-      #menu{
-          display: none;
+          a{
+            content: '';
+            position: fixed;
+            width: 1em;
+            height: 1.03em;
+          }
       }
     }
+}
+.accordion-content{
+    width:0em;
+    height: 0em;
+    overflow:hidden;
+    display: none;
+}
+.accordion-content:target{
+  background: #37474f;
+  left:0;
+  top:0;
+  position: fixed;
+  width: 13.25em;
+  height: 100%;
+  overflow: auto;
+  display: block;
+  h3{
+    a{
+      padding: 0.75em;
+      content: '';
+      display: block;
+      font-size: 1.15em;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: none;
+      color:#ffff00 ;
+    }
+  }
+  h3:hover{
+    background-color:  #455a64;
+  }
+  #menu-title{
+    top:0em;
+    background: #bdbdbd;
+    padding: 1em;
+  }
+  #current-page{
+      top:0em;
+      background: #e3f2fd;
+      padding: 0.95em;
+  }
 }

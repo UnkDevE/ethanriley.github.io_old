@@ -4,19 +4,29 @@
 
 <html>
 <body>
-      <div id="navbar" class="style">
-        <div id="Vnavbar" class="style">
-            <div class="navicon">
-        </div>
-        <div id="menu">
-          {%for page in site.pages %}
-              <p></p>
-          {% endfor %}
-        </div>
+      <div id="navbar" class="style accordion">
+          <div id="Vnavbar" class="style">
+              <div class="navicon">
+                  <a href="#menu"></a>
+              </div>
+          </div>
+        <div id="title">
+          <span>{{page.title}}</span>
       </div>
-      <div id="title">
-        <span>{{page.title}}</span>
     </div>
+    <div id="menu" class="accordion-content style">
+      <h2 id="menu-title">{{site.title}}</h2>
+        {%for lpage in site.pages %}
+            {% if lpage.title != null %}
+              <div>
+                {% if lpage.title != page.title %}
+                  <h3><a href="{{lpage.url}}">{{lpage.title}}</a></h3>
+                {% else %}
+                  <h3 id="current-page">{{page.title}}</h3>
+                {% endif %}
+              </div>
+            {% endif %}
+        {% endfor %}
     </div>
     <div id="main" class="style">
       <main>

@@ -18,7 +18,8 @@ permalink: /what/
 4. added default.html -- explain _layouts  
 5. home icon
 5. explain scss  
-7. created _navbar.scss -- explain nesting / tags  
+7. created _navbar.scss -- explain nesting / tags / target / hover
+8. fake links
 8. explain css image
 9. fonts size changed for responsive design -- use of vh and em
 6. created main.scss -- explain usage / seprate css files  
@@ -29,4 +30,3 @@ permalink: /what/
 1. explain Jquery   
 2. js file
 3. responsive stuffs -- css div
-4. reposive test test test test test test test test test test test test test
