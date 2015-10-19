@@ -18,18 +18,30 @@ body{
         color:#212121;
         font-weight: normal;
       }
-      h2{
-        font-size: 1.25em;
+      @media(max-width: 799px){
+        h2{
+          font-size: 1.875em;
+        }
+        h3{
+          font-size: 1.725em;
+        }
+      }
+      @media(min-width: 800px){
+        h2{
+          font-size: 1.25em;
+        }
+        h3{
+          font-size: 1.15em;
+        }
       }
       h3{
-        font-size: 1.15em;
+          color: #424242;
       }
-      color: #424242;
   }
 
 }
 main{
-    margin-top:2.45em; //needs to be 1/2 of #
-    margin-left:1.65vh;
+    margin-top:4.45em; //needs to be 1/2 of #
+    margin-left:1.65vw;
     position: sticky;
 }

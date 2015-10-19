@@ -18,5 +18,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  shop:
+    output: true
+
 # Build settings
 markdown: kramdown

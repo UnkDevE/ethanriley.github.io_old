@@ -16,11 +16,11 @@
     </div>
     <div id="menu" class="accordion-content style">
       <h2 id="menu-title">{{site.title}}</h2>
-        {%for lpage in site.pages %}
-            {% if lpage.title != null %}
+        {% for ipage in site.pages %}
+            {% if ipage.title != null %}
               <div>
-                {% if lpage.title != page.title %}
-                  <h3><a href="{{lpage.url}}">{{lpage.title}}</a></h3>
+                {% if ipage.title != page.title %}
+                  <h3><a href="{{ipage.url}}">{{ipage.title}}</a></h3>
                 {% else %}
                   <h3 id="current-page">{{page.title}}</h3>
                 {% endif %}

@@ -4,10 +4,12 @@
   top:0em;
   width: 100%;
   background-color: #00ACC1 ;
+  padding:0;
+  margin: 0;
   #title{
     left:0%;
-    padding-top:0.65vh;
-    padding-bottom: 0.65vh;
+    padding-top:0.65em;
+    padding-bottom: 0.65em;
     display: inline-block;
     span{
       word-wrap: normal;
@@ -25,13 +27,13 @@
       .navicon{
           position: fixed;
           vertical-align: bottom;
-          top:0.65em;
+          top:1.10em;
           height: 0.15em;
           width: 1em;
           background: #111;
           border-radius: 5%;
-          box-shadow: 0 0.325em 0 0 black,
-          0 0.65em 0 0 black;
+          box-shadow: 0 0.3em 0 0 #111,
+          0 0.6em 0 0 #111;
           a{
             content: '';
             position: fixed;
