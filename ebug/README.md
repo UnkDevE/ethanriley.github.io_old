@@ -1,3 +1,0 @@
-# ethanriley.github.io
-
-## website!
