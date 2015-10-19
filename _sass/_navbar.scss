@@ -48,6 +48,7 @@
     display: none;
 }
 .accordion-content:target{
+  display: block;
   padding: 0;
   margin: 0;
   background: #37474f;
@@ -69,7 +70,7 @@
       font-style: normal;
       font-weight: normal;
       text-decoration: none;
-      color:#ffff00 ;
+      color:#009688;
     }
   }
   h3:hover{
@@ -79,6 +80,7 @@
     top:0em;
     background: #bdbdbd;
     padding: 1em;
+    margin:0;
   }
   #current-page{
       top:0em;
