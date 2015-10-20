@@ -1,22 +1,16 @@
 
-function show(element){
-  $(element).css('display', 'block');
-}
-
-function hide(element){
-  $(element).css('display', 'none');
-}
-
 function navbaropen(){
-    show('.accordion-content');
+    $('.accordion-content').css('left', '0');
     $('.accordion-content').css('overflow', 'auto');
-    show('.overlay');
+    $('.overlay').css('z-index', '6');
+    $('.overlay').css('opacity', '1');
 }
 
 function navbarclose(){
-    hide('.accordion-content');
+    $('.accordion-content').css('left', '-100%');
     $('.accordion-content').css('overflow', 'hidden');
-    hide('.overlay');
+    $('.overlay').css('z-index', '-1');
+    $('.overlay').css('opacity', '0');
 }
 
 $(document).ready(function() {
