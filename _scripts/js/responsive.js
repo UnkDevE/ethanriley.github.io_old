@@ -1,10 +1,11 @@
+
 function show(element){
   $(element).css('display', 'block');
 }
+
 function hide(element){
   $(element).css('display', 'none');
 }
-
 
 function navbaropen(){
     show('.accordion-content');
