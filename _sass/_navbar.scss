@@ -55,12 +55,12 @@
   top:0;
   left:0;
   position: fixed;
-  transition: all 0.875s;
+  transition: all 0.875s ease;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .accordion-content{
-  transition: all 0.875s;
+  transition: all 0.875s ease;
   z-index:9;
   padding: 0;
   margin: 0;
