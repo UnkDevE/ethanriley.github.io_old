@@ -4,17 +4,7 @@
 
 <html>
 <body>
-      <div id="navbar" class="style accordion">
-          <div id="Vnavbar" class="style">
-              <div class="navicon">
-                  <a href="#menu"></a>
-              </div>
-          </div>
-        <div id="title">
-          <span>{{page.title}}</span>
-      </div>
-    </div>
-    <div id="menu" class="accordion-content style">
+    <div id="menu" class="accordion-content">
       <h2 id="menu-title">{{site.title}}</h2>
         {% for ipage in site.pages %}
             {% if ipage.title != null %}
@@ -28,10 +18,21 @@
             {% endif %}
         {% endfor %}
     </div>
-    <div id="main" class="style">
-      <main>
-          {{content}}
-      </main>
-  </div>
+    <a class="overlay" href="{{page.url}}"></a> 
+        <div id="navbar" class="style">
+              <div id="Vnavbar">
+                  <div class="navicon">
+                      <a href="#menu"></a>
+                  </div>
+              </div>
+        <div id="title">
+              <span>{{page.title}}</span>
+        </div>
+      </div>
+      <div id="main" class="style">
+          <main>
+              {{content}}
+          </main>
+      </div>
   </body>
 </html>

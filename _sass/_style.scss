@@ -11,6 +11,8 @@ a:hover{
   text-decoration:underline;
 }
 body{
+  position: relative;
+  z-index: 1;
   background: #EEEEEE;
   font-family: 'Roboto' sans-serif;
   .style{
@@ -18,15 +20,15 @@ body{
         color:#212121;
         font-weight: normal;
       }
-      @media(max-width: 799px){
+      @media screen and (max-width: 799px){
         h2{
-          font-size: 1.875em;
+          font-size: 18.75em;
         }
         h3{
-          font-size: 1.725em;
+          font-size: 17.25em;
         }
       }
-      @media(min-width: 800px){
+      @media screen and (min-width: 800px){
         h2{
           font-size: 1.25em;
         }
