@@ -11,7 +11,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 published: true
 
-gems: ['jekyll-compass']
+
 include: ['_pages', '_static', '_scripts']
 
 sass:
