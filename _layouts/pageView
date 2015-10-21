@@ -1,0 +1,15 @@
+---
+layout : cardView
+---
+
+<div id="topbar">
+    <div id="top-disc">
+        <div>
+          <h2>{{page.productname}}</h2>
+          <h3>{{page.price}}</h3>
+          <input value="text" name="quantity">
+          <input value="submit" name="buy">
+          <img src="" alt="product-image">
+        <div>
+    </div>
+</div>
