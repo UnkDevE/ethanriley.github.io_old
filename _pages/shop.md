@@ -1,5 +1,5 @@
 ---
-layout: pageView
+layout: cardView
 title: shop
 permalink: /shop/
 ---
