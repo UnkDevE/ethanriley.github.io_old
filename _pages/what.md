@@ -1,5 +1,5 @@
 ---
-layout: pageView
+layout: cardView
 title: What i have done so far
 permalink: /what/
 ---
