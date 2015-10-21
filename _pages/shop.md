@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pageView
 title: shop
 permalink: /shop/
 ---

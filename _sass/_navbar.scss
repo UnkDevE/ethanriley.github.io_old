@@ -1,12 +1,13 @@
 #navbar{
   position: fixed;
   z-index: 2;
-  left:0em;
-  top:0em;
+  left:0;
+  top:0;
   width: 100%;
   background-color: #00ACC1 ;
   padding:0;
   margin: 0;
+  box-shadow: 0 0 0.85em #212121;
   #title{
     left:0%;
     padding-top:0.65em;
@@ -17,7 +18,7 @@
       font-size-adjust: auto;
       padding-left: 1.750em;
       display: inline;
-      font-size: 1.45em;
+      font-size: 1.45rem;
       color:#ffffff;
     }
   }
@@ -71,6 +72,7 @@
   width: 13.25em;
   height: 100%;
   overflow:hidden;
+  box-shadow: 0 0 0.95em #212121;
   h3{
     margin:0;
     padding: 0;
@@ -79,11 +81,15 @@
       margin: 0;
       content: '';
       display: block;
-      font-size: 1.15em;
+      font-size: 1.15rem;
       font-style: normal;
       text-decoration: none;
       color:#F5F5F5;
     }
+  }
+  .accordion-content:target{
+      left:0;
+      overflow: hidden;
   }
   h3:hover{
     background-color:  #455a64;

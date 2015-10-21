@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pageView
 title: What i have done so far
 permalink: /what/
 ---
