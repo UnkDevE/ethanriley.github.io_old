@@ -1,5 +1,5 @@
 ---
-layout: cardView
+layout: productView
 title: What i have done so far
 permalink: /what/
 ---

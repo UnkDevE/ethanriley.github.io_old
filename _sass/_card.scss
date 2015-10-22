@@ -13,3 +13,23 @@
     background-color: #FAFAFA;
     box-shadow: 0 0 0.25em #616161;
 }
+
+.card-data{
+  overflow: auto;
+  display:block;
+}
+
+.card-image{
+
+}
+
+.card-important{
+  @extend .card-data;
+  .card-image{
+
+  }
+}
+
+.card-hidden{
+  @extend  .card-data;
+}
