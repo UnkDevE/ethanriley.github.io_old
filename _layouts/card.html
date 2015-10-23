@@ -4,12 +4,19 @@
 
 <div class="card style">
     <div class="card-important">
-        {% include page.include %}
+      {% if page.include != null %}
+          {% include {{page.include}} %}
+      {% endif %}
     </div>
     <div class="card-data">
-        {{ page.content }}
+        {{ content }}
     </div>
     <div class="card-hidden">
-        {{ page.hidden }}
+        {% if page.hidden != null %}
+              {{page.hidden}}
+        {% endif %}
+        {% if page.Includehidden != null %}
+            {% include page.Includehidden%}
+        {% endif %}
     </div>
 </div>

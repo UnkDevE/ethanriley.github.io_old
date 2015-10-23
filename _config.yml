@@ -11,12 +11,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 published: true
 
-
-include: ['_pages', '_static', '_scripts']
-
 sass:
   sass_dir: _sass
   style: compressed
+
+
+include: ['_pages', '_static', '_scripts']
 
 collections:
   shop:

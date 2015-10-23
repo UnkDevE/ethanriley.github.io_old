@@ -13,6 +13,22 @@ function navbarclose(){
     $('.overlay').css('opacity', '0');
 }
 
+
+
+function show(element, tag, endpostion){
+    $(element).css(tag, endpostion);
+    $(element).css('overflow', 'auto');
+    newindex = parseint($(element).css('z-index'))+ 2;
+    $(element).css('z-index', newindex.toString());
+}
+
+function hide(element, tag, endpostion){
+    $(element).css(tag, endpostion);
+    $(element).css('overflow', 'hidden');
+    oldindex = parseint($(element).css('z-index'))+ 2;
+    $(element).css('z-index', oldindex.toString());
+}
+
 $(document).ready(function() {
   var mainMarginTop = $('#title').height()*2;
   $('main').css('margin-top', mainMarginTop+"px");
