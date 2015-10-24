@@ -4,8 +4,9 @@
 
 <html>
 <body>
-    <div id="menu" class="accordion-content">
-      <h2 id="menu-title">{{site.title}}</h2>
+
+    <div class="accordion-content">
+      <h2 id="navbar-title">{{site.title}}</h2>
         {% for ipage in site.pages %}
             {% if ipage.title != null %}
               <div>
@@ -18,17 +19,20 @@
             {% endif %}
         {% endfor %}
     </div>
+
     <a class="overlay" onclick="navbarclose()"></a>
-        <div id="navbar" class="style">
-              <div id="Vnavbar">
-                  <div class="navicon">
-                      <a onclick="navbaropen()"></a>
-                  </div>
-              </div>
-        <div id="title">
-              <span>{{page.title}}</span>
-        </div>
+
+      <div id="topbar" class="style">
+          <div id="padder">
+            <div class="navicon">
+                <a onclick="navbaropen()"></a>
+            </div>
+          </div>
+          <div id="title">
+                <span>{{page.title}}</span>
+          </div>
       </div>
+
       <div id="main" class="style">
           <main>
               {{content}}

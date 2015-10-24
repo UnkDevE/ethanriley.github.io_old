@@ -2,7 +2,20 @@
   position: fixed;
   transition: all 0.875s ease;
   overflow: hidden;
-  z-index: 0;
   padding: 0;
   margin: 0;
+}
+.overlay{
+  z-index: 1;
+  opacity: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top:0;
+  left:0;
+  position: fixed;
+  transition: all 0.875s ease;
+  background-color: rgba(0, 0, 0, 0.5);
 }

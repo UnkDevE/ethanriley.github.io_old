@@ -1,22 +1,16 @@
 ---
-  layout: default
+layout: default
 ---
 
 <div class="card style">
-    <div class="card-important">
-      {% if page.include != null %}
-          {% include {{page.include}} %}
-      {% endif %}
-    </div>
     <div class="card-data">
         {{ content }}
     </div>
-    <div class="card-hidden">
-        {% if page.hidden != null %}
-              {{page.hidden}}
-        {% endif %}
-        {% if page.Includehidden != null %}
-            {% include page.Includehidden%}
-        {% endif %}
-    </div>
+    {% if page.hidden != null %}
+      <div class="card-hidden">
+        <h2 class="hidden-activator">{{page.hidden}}</h2>
+          <div class="hidden">
+        </div>
+      </div>
+    {% endif %}
 </div>

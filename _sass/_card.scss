@@ -16,17 +16,18 @@
 
 .card-data{
   overflow: auto;
-  display:block;
+  display: block-inline;
 }
 
 .card-image{
-
+  
 }
 
 .card-important{
   @extend .card-data;
+  top: 25%;
   .card-image{
-
+      left:50%;
   }
 }
 

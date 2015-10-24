@@ -11,6 +11,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 published: true
 
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -19,7 +20,7 @@ sass:
 include: ['_pages', '_static', '_scripts']
 
 collections:
-  shop:
+  products:
     output: true
 
 # Build settings

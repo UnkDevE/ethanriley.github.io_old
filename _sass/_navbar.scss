@@ -1,4 +1,4 @@
-#navbar{
+#topbar{
   position: fixed;
   z-index: 2;
   left:0;
@@ -22,7 +22,7 @@
       color:#ffffff;
     }
   }
-  #Vnavbar{
+  #padder{
       position: relative;
       left:0.75em;
       display: inline-block;
@@ -46,24 +46,9 @@
       }
     }
 }
-.overlay{
-  z-index: 1;// 3 when shown
-  opacity: 0;
-  content: '';
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  top:0;
-  left:0;
-  position: fixed;
-  transition: all 0.875s ease;
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 .accordion-content{
   @extend .hidden;
-  z-index: 2;// 4 when shown
+  z-index: 9;
   background-color: #37474f;
   left:-100%;
   top:0;
@@ -87,7 +72,7 @@
   h3:hover{
     background-color:  #455a64;
   }
-  #menu-title{
+  #navbar-title{
     top:0em;
     background: #bdbdbd;
     padding: 1em;

@@ -1,6 +1,6 @@
 ---
-layout: productView
-title: shop
+layout: cards
+title : shop
 permalink: /shop/
 ---
 #Hello

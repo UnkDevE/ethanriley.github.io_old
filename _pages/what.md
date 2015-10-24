@@ -1,5 +1,4 @@
 ---
-layout: card
 title: What i have done so far
 permalink: /what/
 ---

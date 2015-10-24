@@ -5,3 +5,13 @@
     }
     @return $x;
 }
+
+@function next($val){
+    $val : $val + 1;
+    @return $val;
+}
+
+@function previous($val){
+    $val : $val - 1;
+    @return $val;
+}
