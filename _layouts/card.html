@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-
 <div class="card style">
     <div class="card-data">
         {{ content }}
     </div>
-    {% if page.hidden != null %}
+    {% if card.hidden != null %}
       <div class="card-hidden">
-        <h2 class="hidden-activator">{{page.hidden}}</h2>
-          <div class="hidden">
+          <h2 class="hidden-activator">{{card.hidden}}</h2>
+            <div class="hidden">
+          </div>
         </div>
-      </div>
-    {% endif %}
+      {% endif %}
 </div>

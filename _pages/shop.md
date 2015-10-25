@@ -1,5 +1,6 @@
 ---
-layout: cards
+layout: card
+collection: products
 title : shop
 permalink: /shop/
 ---
