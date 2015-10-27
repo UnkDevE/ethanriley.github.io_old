@@ -2,7 +2,7 @@
 title: What i have done so far
 permalink: /what/
 layout: card
-include: productinc.html
+include: productInc.html
 ---
 
 ## What i have done!
