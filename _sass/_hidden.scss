@@ -1,4 +1,12 @@
-.hidden{
+.hidden-appear{
+  opacity: 0;
+  position: fixed;
+  transition: all 0.875s ease;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.hidden-slide{
   position: fixed;
   transition: all 0.875s ease;
   overflow: hidden;
