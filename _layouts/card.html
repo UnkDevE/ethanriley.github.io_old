@@ -1,35 +1,12 @@
 ---
 layout: default
 ---
-{% if page.root != true %}
-  <div class="card style">
-      <div class="card-data">
-          {{ content }}
-      </div>
-      {% if page.hidden != null %}
-        <div class="card-hidden">
-            <h2 class="hidden-activator">{{page.hidden}}</h2>
-              <div class="hidden">
-            </div>
-          </div>
-        {% endif %}
-  </div>
-{% else %}
-  {% for card in site.cards %}
-        <div class="card style">
-            <div class="card-data">
-                  {% if card.include != null %}
-                      {% include {{card.include}} %}
-                  {% endif %}
-                  {{card.content}}
-            </div>
-            {% if card.hidden != null %}
-              <div class="card-hidden">
-                  <h2 class="hidden-activator">{{card.hidden}}</h2>
-                    <div class="hidden">
-                  </div>
-                </div>
-              {% endif %}
-        </div>
+
+{% if page.content != null %}
+    {% include card.html card=page root=page.root %}
+{% endif %}
+{% if page.root %}
+  {% for icard in site.[page.collection] %}
+        {% include card.html card=icard root=page.root %}
   {% endfor %}
 {% endif %}

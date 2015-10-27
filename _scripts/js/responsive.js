@@ -11,6 +11,6 @@ function navbarclose(){
 
 $(document).ready(function() {
   var mainMarginTop = $('#title').height()*2;
-  $('main').css('margin-top', mainMarginTop+"px");
+  $('#main').css('margin-top', mainMarginTop+"px");
 }
 )

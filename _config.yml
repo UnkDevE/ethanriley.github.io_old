@@ -20,10 +20,10 @@ sass:
 include: ['_pages', '_static', '_scripts']
 
 collections:
-  cards:
+  news:
     output: true
-    products:
-      output: true
+  products:
+    output: true
 
 # Build settings
 markdown: kramdown

@@ -2,9 +2,6 @@
 title: What i have done so far
 permalink: /what/
 layout: card
-important: productInc.html
-hidden: hi
-footer: feedback.html
 ---
 
 ## What i have done!
@@ -33,3 +30,4 @@ footer: feedback.html
 1. explain Jquery   
 2. js file
 3. responsive stuffs -- css div
+2. explain why you cannot have ids in for loops

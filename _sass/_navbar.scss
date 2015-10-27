@@ -47,7 +47,7 @@
     }
 }
 .accordion-content{
-  @extend .hidden;
+  @extend .hidden-slide;
   z-index: 9;
   background-color: #37474f;
   left:-100%;
