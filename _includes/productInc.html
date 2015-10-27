@@ -1,12 +1,12 @@
 <div class = "card-important">
   <div>
-    <h2>{{page.productname}}</h2>
-    <h3>{{page.price}}</h3>
-    <input type="text" name="quantity">
-    {% if page.hire %}
-        <input type="submit" value="hire" name="hire">
+    <h2>{{include.card.productname}}</h2>
+    <h3>{{include.card.price}}</h3>
+    <input class="hidden-appear" type="text" name="quantity">
+    {% if include.page.hire %}
+        <input type="submit" value="hire" name="hire" class="hidden-appear">
     {% else %}
-        <input type="submit" value="buy" name="buy">
+        <input type="submit" value="buy" name="buy" class="hidden-appear">
     {% endif %}
   </div>
   <img class = "card-image" src = "{{page.product-imagesrc}}" alt="{{page.productname}} image">
