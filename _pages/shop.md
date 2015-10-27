@@ -1,9 +1,6 @@
 ---
 layout: card
-collection: products
+root: true
 title : shop
 permalink: /shop/
 ---
-#Hello
-*this is cool*
-[google](www.google.com)

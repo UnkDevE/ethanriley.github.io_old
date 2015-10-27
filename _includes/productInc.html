@@ -1,0 +1,15 @@
+<div class = "card-important">
+  <div>
+    <h2>{{page.productname}}</h2>
+    <h3>{{page.price}}</h3>
+    <input type="text" name="quantity">
+    {% if page.hire %}
+        <input type="submit" value="hire" name="hire">
+    {% else %}
+        <input type="submit" value="buy" name="buy">
+    {% endif %}
+  </div>
+  <img class = "card-image" src = "{{page.product-imagesrc}}" alt="{{page.productname}} image">
+</div>
+
+<h2>discription</h2>

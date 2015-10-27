@@ -1,6 +1,8 @@
 ---
 title: What i have done so far
 permalink: /what/
+layout: card
+include: productinc.html
 ---
 
 ## What i have done!
