@@ -8,7 +8,8 @@
     left: 5%;
     top: 10%;
     padding: 0;
-    margin: 1.25rem 0 0 0;
+    padding-left: 1em;
+    margin: 1.25rem 1.25rem 0 0;
     display: block;
     background-color: #FAFAFA;
     box-shadow: 0 0 0.25em #616161;
@@ -29,6 +30,13 @@
   .card-image{
       left:50%;
   }
+}
+
+.card-layout-matrix{
+    position: relative;
+    display: inline-flex;
+    height:100%;
+    width: 100%;
 }
 
 .card-hidden{
