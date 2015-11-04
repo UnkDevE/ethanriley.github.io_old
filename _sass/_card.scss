@@ -2,7 +2,7 @@
 .card{
     z-index: 2.5;
     position: relative;
-    width: 90%;
+    width: 20%;
     height: 90%;
     vertical-align: middle;
     left: 5%;
@@ -17,7 +17,8 @@
 
 .card-data{
   overflow: auto;
-  display: block-inline;
+  display: flex-inline;
+  flex-wrap: inhiert
 }
 
 .card-image{
