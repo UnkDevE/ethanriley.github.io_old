@@ -9,7 +9,7 @@
         <input type="submit" value="buy" name="buy" class="hidden-appear">
     {% endif %}
   </div>
-  <img class = "card-image" src = "{{page.product-imagesrc}}" alt="{{page.productname}} image">
+  <div class="card-image-container">
+      <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
+  </div>
 </div>
-
-<h2>discription</h2>

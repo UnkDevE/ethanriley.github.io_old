@@ -15,19 +15,34 @@
 }
 
 .card-data{
-  overflow: auto;
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.card-image-container{
+    position: relative;
+    text-align: center;
+    display: flex;
+    height: auto;
 }
 
 .card-image{
-
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 95%;
+  height: 95%;
 }
 
 .card-important{
   @extend .card-data;
   top: 25%;
-  .card-image{
-      left: 50%;
-  }
+  height: 100%;
+  width: 100%;
+  position: relative;
+
 }
 
 .card-layout-matrix{

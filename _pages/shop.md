@@ -5,4 +5,3 @@ collection: products
 title : shop
 permalink: /shop/
 ---
-#the shop is where you buy stuff

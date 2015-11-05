@@ -24,6 +24,8 @@ collections:
     output: true
   products:
     output: true
+    images:
+      output: true
 
 # Build settings
 markdown: kramdown
