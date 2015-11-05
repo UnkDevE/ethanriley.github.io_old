@@ -2,7 +2,6 @@
 .card{
     z-index: 2.5;
     position: relative;
-    width: 20%;
     height: 90%;
     vertical-align: middle;
     left: 5%;
@@ -17,8 +16,6 @@
 
 .card-data{
   overflow: auto;
-  display: flex-inline;
-  flex-wrap: inhiert
 }
 
 .card-image{
@@ -29,15 +26,19 @@
   @extend .card-data;
   top: 25%;
   .card-image{
-      left:50%;
+      left: 50%;
   }
 }
 
 .card-layout-matrix{
     position: relative;
     display: inline-flex;
-    height:100%;
+    flex-wrap: wrap; 
+    height: 100%;
     width: 100%;
+    .card{
+        width: 45%;
+    }
 }
 
 .card-hidden{
