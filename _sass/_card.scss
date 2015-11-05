@@ -4,10 +4,10 @@
     position: relative;
     height: 90%;
     vertical-align: middle;
-    left: 5%;
+    left: 4%;
     top: 10%;
-    padding: 0;
-    padding-left: 1em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
     margin: 1.25rem 1.25rem 0 0;
     display: block;
     background-color: #FAFAFA;
@@ -31,12 +31,15 @@
 }
 
 .card-layout-matrix{
+    padding: 0;
+    margin: 0;
     position: relative;
-    display: inline-flex;
-    flex-wrap: wrap; 
     height: 100%;
     width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
     .card{
+        height: 20%;
         width: 45%;
     }
 }
