@@ -5,7 +5,7 @@
   important: productInc.html
   hidden: feedback
   footer: feedback.html
-  product-imagesrc: Penguins.jpg
+  product-imagesrc: Surfer_and_red_surfboard.jpg
 ---
 #Hello
 *this is cool*

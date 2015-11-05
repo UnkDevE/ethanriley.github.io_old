@@ -1,14 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="card-layout-matrix">
-  {% if page.content != null %}
-      {% include card.html card=page root=page.root %}
-  {% endif %}
-  {% if page.root %}
-    {% for icard in site.[page.collection] %}
-          {% include card.html card=icard root=page.root %}
-    {% endfor %}
-  {% endif %}
+<div class="cards-center">
+  <div class="card-layout-matrix">
+    {% if page.content != "" %}
+        {% include card.html card=page root=page.root %}
+    {% endif %}
+    {% if page.root %}
+      {% for icard in site.[page.collection] %}
+            {% include card.html card=icard root=page.root %}
+      {% endfor %}
+    {% endif %}
+  </div>
 </div>

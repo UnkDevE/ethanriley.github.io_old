@@ -1,0 +1,41 @@
+%ghost{
+  align-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+%ghost:before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+%ghost-content-center{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+@mixin center-content-translate($x, $y) {
+  top: $y;
+  left: $x;
+  transform: translate(-$x, -$y);
+  position: absolute;
+}
+
+@mixin center-horiz-content-translate($x){
+    left: $x;
+    transform: translate(-$x, 0);
+    position: absolute;
+}
+
+@mixin center-vert-content-translate($y){
+    left: $y;
+    transform: translate(0, -$y);
+    position: absolute;
+}
+
+@mixin center-all{
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
