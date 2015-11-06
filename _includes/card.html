@@ -4,7 +4,7 @@
               {% include {{include.card.important}} card=include.card%}
           {% endif %}
           {% if include.card.root %}
-              {{include.card.content | markdownify}}
+              {{ include.card.content | markdownify }}
           {% else %}
                 {{ include.card.content }}
           {% endif %}

@@ -6,7 +6,7 @@
   hidden: feedback
   footer: feedback.html
   product-imagesrc: Surfer_and_red_surfboard.jpg
+  productname: F****
+  price: £123
 ---
-#Hello
-*this is cool*
-[google](http://www.google.com/)
+*this is cool* [google](http://www.google.com/)
