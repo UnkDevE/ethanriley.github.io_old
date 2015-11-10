@@ -1,0 +1,4 @@
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^<div class="card style">$/;"	function	line:1
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^    <div class="card-data">$/;"	function	line:2
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^              <h2 class="hidden-activator">{{page.hidden}}<\/h2>$/;"	function	line:8
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^                <div class="card-hidden">$/;"	function	line:9

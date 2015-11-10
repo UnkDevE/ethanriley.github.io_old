@@ -1,0 +1,21 @@
+<div class="card style">
+    <div class="card-data">
+        {% if include.card.important != null %}
+            {% include {{include.card.important}} card=include.card%}
+        {% endif %}
+        {% if include.card.root %}
+            {{ include.card.content | markdownify }}
+        {% else %}
+            <div class="card-elipsis">
+              {{ include.card.content }}
+            </div>
+        {% endif %}
+        {% if include.card.hidden != null and include.root == null %}
+              <h2 class="hidden-activator">{{include.card.hidden}}</h2>
+                <div class="card-hidden">
+                  {% include {{include.card.footer}} card=page%}
+              </div>
+        {% endif %}
+    </div>
+    <a class="card-link"></a>
+</div>

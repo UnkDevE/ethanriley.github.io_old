@@ -14,7 +14,14 @@
     background-color: #FAFAFA;
     box-shadow: 0 0 0.25em #616161;
 }
+.card-fullscreen{
 
+}
+.card-link{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 .card-data{
   display: block;
   height: 100%;
@@ -66,8 +73,10 @@
     }
   }
 }
-
 .card-hidden{
   @extend .hidden-slide;
   top: 0;
+}
+.card-elipsis{
+  @extend %elipsis-overflow;
 }

@@ -6,7 +6,7 @@
           {% if include.card.root %}
               {{ include.card.content | markdownify }}
           {% else %}
-                {{ include.card.content }}
+              {{ include.card.content }}
           {% endif %}
           {% if include.card.hidden != null and include.root == null %}
                 <h2 class="hidden-activator">{{include.card.hidden}}</h2>

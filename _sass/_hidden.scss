@@ -27,3 +27,10 @@
   transition: all 0.875s ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
+%elipsis-overflow{
+  max-height: 3em;
+  content:"";
+}
+.readmore{
+  content:"";
+}
