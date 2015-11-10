@@ -1,7 +1,6 @@
 ---
-  title: hello
-  permalink: /hello/
-  layout: card-link
+  title: hello2
+  layout: card
   important: productInc.html
   hidden: feedback
   footer: feedback.html
@@ -10,4 +9,4 @@
   price: £123
 ---
 *this is cool* [google](http://www.google.com/) tatatatas
-breaking in im shaping up checking out of theprison butst ima waking up i fewel it in my bone s waelcome to the new age who whow hhwohowowohwohwohowhwoh radioactive.
+breaking in im shaping up checking out of theprison butst ima waking up i fewel it in my bone s waelcome to the new age who whow hhwohowowohwohwohowhwoh radioactive.fooo.

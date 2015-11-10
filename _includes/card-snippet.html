@@ -1,0 +1,21 @@
+{% capture url %}'{{ include.card.path | remove:'_' | remove:'.md' }}'{% endcapture %}
+<div class="card style card-link" onclick="onlink({{url}})">
+    <div class="card-data">
+        {% if include.card.important != null %}
+            {% include {{include.card.important}} card=include.card%}
+        {% endif %}
+        <div class="card-elipsis">
+          {% if include.card.root %}
+              {{ include.card.content | markdownify }}
+          {% else %}
+              {{ include.card.content }}
+          {% endif %}
+          {% if include.card.hidden != null and include.root == null %}
+                <h2 class="hidden-activator">{{include.card.hidden}}</h2>
+                  <div class="card-hidden">
+                    {% include {{include.card.footer}} card=page%}
+                </div>
+          {% endif %}
+        </div>
+    </div>
+</div>

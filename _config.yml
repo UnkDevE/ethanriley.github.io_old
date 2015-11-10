@@ -24,6 +24,7 @@ collections:
     output: true
   products:
     output: true
+    permalink: /shop/products/:path
     images:
       output: true
 

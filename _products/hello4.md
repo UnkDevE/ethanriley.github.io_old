@@ -1,7 +1,6 @@
 ---
-  title: hello
-  permalink: /hello/
-  layout: card-link
+  title: hello4
+  layout: card
   important: productInc.html
   hidden: feedback
   footer: feedback.html

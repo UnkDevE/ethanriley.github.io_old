@@ -13,5 +13,6 @@ function fadeout(element){
 }
 function fadein(element, index){
   $(element).css('z-index', index.toString());
+  $(element).css('display', 'block')
   $(element).css('opacity', '1');
 }
