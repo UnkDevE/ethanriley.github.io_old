@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-<div class="card style">
-    <div class="card-data">
-        {% if page.important != null %}
-            {% include {{page.important}} card=page%}
-        {% endif %}
-        {{ content }}
-        {% if page.hidden != null and include.root == null %}
-              <h2 class="hidden-activator">{{page.hidden}}</h2>
-                <div class="card-hidden">
-                  {% include {{page.footer}} card=page%}
-              </div>
-        {% endif %}
-    </div>
+<div class="card-layout-matrix">
+  <div class="card style">
+      <div class="card-data">
+          {% if page.important != null %}
+              {% include {{page.important}} card=page snippet=false%}
+          {% endif %}
+          {{ content }}
+          {% if page.hidden != null and include.root == null %}
+                <h2 class="hidden-activator">{{page.hidden}}</h2>
+                  <div class="card-hidden">
+                    {% include {{page.footer}} card=page%}
+                </div>
+          {% endif %}
+      </div>
+  </div>
 </div>
