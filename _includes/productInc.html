@@ -10,7 +10,6 @@
   </div>
   {% if include.snippet  %}
     <div class="card-image-container">
-<<<<<<< HEAD
         <img class = "card-image" src = "{{site.baseurl}}products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
     </div>
   {% else %}
@@ -19,18 +18,11 @@
             {% for image in include.card.image-gallery %}
                   <img class = "card-image" src = "{{site.baseurl}}images/{{image}}" alt="{{image}}">
             {% endfor %}
-=======
-        <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
-    </div>
-  {% else %}
-      <div class="card-gallery">
-        <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
-        {% if include.card.gallery != null %}
-            {% for imgallery in include.card.gallery.images %}
-                hi
+            {% for video in include.card.video-gallery %}
+
             {% endfor %}
-        {% endif %}
->>>>>>> a5f7d368dcf79e662e0295a2fa14a6c939500345
+            {% for embed in include.card.embed-gallery %}
+            {% endfor %}
       </div>
   {% endif %}
 </div>

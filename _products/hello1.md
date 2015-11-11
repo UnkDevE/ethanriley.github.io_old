@@ -7,8 +7,6 @@
   product-imagesrc: Surfer_and_red_surfboard.jpg
   productname: F****
   price: £123
-<<<<<<< HEAD
-  
   image-gallery:
     - Surfer_and_red_surfboard.jpg
     - Surfer_and_red_surfboard.jpg
