@@ -3,7 +3,7 @@
 <div class="card style card-link" onclick="onlink({{url}})">
     <div class="card-data">
         {% if include.card.important != null %}
-            {% include {{include.card.important}} card=include.card%}
+            {% include {{include.card.important}} card=include.card snippet=true %}
         {% endif %}
         <div class="card-elipsis">
           {% if include.card.root %}

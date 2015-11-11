@@ -7,6 +7,16 @@
   product-imagesrc: Surfer_and_red_surfboard.jpg
   productname: F****
   price: £123
+  
+  image-gallery:
+    - Surfer_and_red_surfboard.jpg
+    - Surfer_and_red_surfboard.jpg
+    - Surfer_and_red_surfboard.jpg
+    - Surfer_and_red_surfboard.jpg
+  video-gallery:
+    - video.mp4
+  embed-gallery:
+    - www.youtube.com/embed/CVo225pUaSA
 ---
 *this is cool* [google](http://www.google.com/) tatatatas
 breaking in im shaping up checking out of theprison butst ima waking upifelllli it in my bone s waelcome to the new age who whow hhwohowowohwohwohowhwoh radioactive.
