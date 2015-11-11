@@ -1,4 +1,5 @@
-{% capture url %}'{{ include.card.path | remove:'_' | remove:'.md' }}'{% endcapture %}
+{% capture url %}'{{site.baseurl}}{{ include.card.url }}'{% endcapture %}
+
 <div class="card style card-link" onclick="onlink({{url}})">
     <div class="card-data">
         {% if include.card.important != null %}
