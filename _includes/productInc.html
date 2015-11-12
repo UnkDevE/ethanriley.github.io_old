@@ -19,9 +19,14 @@
                   <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
             {% endfor %}
             {% for video in include.card.video-gallery %}
-
+                <video class = "card-image">
+                  <source src="{{video}}" type="video/mp4">
+                  oh buggar this videoeoeoeo does not exist
+                </video>
             {% endfor %}
             {% for embed in include.card.embed-gallery %}
+                <iframe class="card-image" src="{{embed}}">
+                </iframe>
             {% endfor %}
       </div>
   {% endif %}
