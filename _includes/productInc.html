@@ -16,7 +16,7 @@
       <div class="card-gallery">
         <img class = "card-image" src = "{{site.baseurl}}images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
             {% for image in include.card.image-gallery %}
-                  <img class = "card-image" src = "{{site.baseurl}}images/{{image}}" alt="{{image}}">
+                  <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
             {% endfor %}
             {% for video in include.card.video-gallery %}
 
