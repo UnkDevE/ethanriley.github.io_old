@@ -15,19 +15,22 @@
   {% else %}
       <div class="card-gallery">
         <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
-            {% for image in include.card.image-gallery %}
-                  <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
-            {% endfor %}
-            {% for video in include.card.video-gallery %}
-                <video class = "card-image">
-                  <source src="{{video}}" type="video/mp4">
-                  oh buggar this videoeoeoeo does not exist
-                </video>
-            {% endfor %}
-            {% for embed in include.card.embed-gallery %}
-                <iframe class="card-image" src="http://{{embed}}">
-                </iframe>
-            {% endfor %}
+            <div class = "card-gallery-bar" >
+              {% for image in include.card.image-gallery %}
+                    <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
+              {% endfor %}
+              {% for video in include.card.video-gallery %}
+                  <video class = "card-image">
+                    <source src="{{video}}" type="video/mp4">
+                  </video>
+              {% endfor %}
+              {% for embed in include.card.embed-gallery %}
+                  <div class="card-embed-wrapper">
+                    <iframe class="card-image" src="http://{{embed}}">
+                    </iframe>
+                  </div>
+              {% endfor %}
+          </div>
       </div>
   {% endif %}
 </div>
