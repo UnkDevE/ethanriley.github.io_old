@@ -7,13 +7,17 @@ layout: default
           {% if page.important != null %}
               {% include {{page.important}} card=page snippet=false%}
           {% endif %}
-          {{ content }}
-          {% if page.hidden != null and include.root == null %}
-                <h2 class="hidden-activator">{{page.hidden}}</h2>
-                  <div class="card-hidden">
-                    {% include {{page.footer}} card=page%}
-                </div>
-          {% endif %}
+          <div class="card-content">
+            {% if page.header != null %}
+                <h1 class="card-header">{{page.header}} </h1>
+            {% else %}
+              <h1 class="card-header">{{page.title}} </h1>
+            {% endif %}
+            {{ content }}
+            {% if page.footer != null and include.root == null %}
+                  {% include {{page.footer}} card=page%}
+            {% endif %}
+          </div>
       </div>
   </div>
 </div>

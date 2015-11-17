@@ -2,7 +2,7 @@
 title: What i have done so far
 permalink: /what/
 layout: card
-important: productInc.html
+important: gallery.html
 hidden: hi
 footer: feedback.html
 ---

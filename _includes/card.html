@@ -1,13 +1,18 @@
   <div class="card style">
       <div class="card-data">
-          {% if include.card.important != null %}
-              {% include {{include.card.important}} card=include.card%}
-          {% endif %}
-            {% if include.card.root %}
-                {{ include.card.content | markdownify }}
-            {% else %}
-                {{ include.card.content }}
+            {% if include.card.important != null %}
+                {% include {{include.card.important}} card=include.card%}
             {% endif %}
+            <div class="card-content">
+              {% if include.card.header != null %}
+                  {% include {{include.card.header}} card=include.card snippet=false %}
+              {% endif %}
+              {% if include.card.root %}
+                  {{ include.card.content | markdownify }}
+              {% else %}
+                  {{ include.card.content }}
+              {% endif %}
+            </div>
             {% if include.card.hidden != null and include.root == null %}
                   <h2 class="hidden-activator" onclick="fadein('.card-data.hidden-activator')"> {{include.card.hidden}}</h2>
                     <div class="card-hidden">

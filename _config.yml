@@ -24,10 +24,10 @@ collections:
     output: true
   products:
     output: true
-    permalink: /shop/products/:path.html
+    permalink: /products/:path.html
     images:
       output: true
-      permalink: /shop/products/images/:path
+      permalink: /products/images/:path
 
 # Build settings
 markdown: kramdown

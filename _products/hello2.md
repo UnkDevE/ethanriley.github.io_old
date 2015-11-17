@@ -1,9 +1,9 @@
 ---
   title: hello2
   layout: card
-  important: productInc.html
-  hidden: feedback
-  footer: feedback.html
+  important: gallery.html
+  hidden: product
+  footer: product.html
   product-imagesrc: Surfer_and_red_surfboard.jpg
   productname: F****
   price: £123

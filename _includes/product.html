@@ -1,0 +1,9 @@
+{% if include.snippet != true %}
+<div class="card-important">
+  {% if include.page.hire %}
+      <input type="submit" value="hire" name="hire" >
+  {% else %}
+      <input type="submit" value="buy" name="buy" >
+  {% endif %}
+</div>
+{% endif %}

@@ -17,15 +17,15 @@ div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/car
 .card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card{$/;"	function	line:70
 .card-hidden	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-hidden{$/;"	function	line:76
 .card-elipsis	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-elipsis{$/;"	function	line:80
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^<div class = "card-important">$/;"	function	line:1
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^  <div class="hidden-appear">$/;"	function	line:2
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^    <h3>{{include.card.price}}<\/h3>$/;"	function	line:3
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^    <input  type="text" name="quantity">$/;"	function	line:4
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^        <input type="submit" value="hire" name="hire" >$/;"	function	line:6
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^        <input type="submit" value="buy" name="buy" >$/;"	function	line:8
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^  <div class="card-image-container">$/;"	function	line:11
-img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^      <img class = "card-image" src = "\/shop\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:12
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/productInc.html	/^<h1>{{include.card.productname}}<\/h1>$/;"	function	line:15
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^<div class = "card-important">$/;"	function	line:1
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="hidden-appear">$/;"	function	line:2
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <h3>{{include.card.price}}<\/h3>$/;"	function	line:3
+input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <input  type="text" name="quantity">$/;"	function	line:4
+input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <input type="submit" value="hire" name="hire" >$/;"	function	line:6
+input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <input type="submit" value="buy" name="buy" >$/;"	function	line:8
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="card-image-container">$/;"	function	line:11
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^      <img class = "card-image" src = "\/shop\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:12
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^<h1>{{include.card.productname}}<\/h1>$/;"	function	line:15
 a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a{$/;"	function	line:1
 a:visited	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:visited{$/;"	function	line:5
 a:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:hover{$/;"	function	line:9

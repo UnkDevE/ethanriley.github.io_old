@@ -6,6 +6,9 @@
             {% include {{include.card.important}} card=include.card snippet=true %}
         {% endif %}
         <div class="card-elipsis">
+          {% if include.card.header != null %}
+            <h1 class="card-header">{{include.card.header}}</h1>
+          {% endif %}
           {% if include.card.root %}
               {{ include.card.content | markdownify }}
           {% else %}
