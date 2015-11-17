@@ -1,9 +1,3 @@
-@keyframes hidden-slide-frames{
-  20% {left:100%};
-  40% {left:200%};
-  100% {left:300%}
-}
-
 .hidden-activator{
   cursor: pointer;
   color: #42a5f5;
@@ -18,13 +12,12 @@
   padding: 0;
   margin: 0;
 }
-.hidden-slide{
+%hidden-slide{
   position: fixed;
   transition: all 0.875s ease;
   overflow: hidden;
   padding: 0;
   margin: 0;
-  animation: hidden-slide-frames 10s infinite;
 }
 .overlay{
   z-index: 1;

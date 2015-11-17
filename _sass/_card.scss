@@ -38,15 +38,12 @@
 }
 
 .card-image{
+  position: relative;
   display: block;
   margin: auto;
-  width: 100%;
-  height: 100%;
   vertical-align: middle;
-}
-
-.gallery-item{
-  @extend .card-image;
+  height: 20%;
+  width: 100%;
 }
 
 .card-important{
@@ -90,8 +87,8 @@
 }
 
 .card-hidden{
-  @extend .hidden-appear;
-  top: 0;
+  //@extend .hidden-appear;
+  display:inline-block;
 }
 
 .card-elipsis{
@@ -99,24 +96,29 @@
 }
 
 .card-gallery{
-  overflow: hidden;
-  width: 100%;
+  display:inline-block;
+  width: 50%;
   height: 45%;
 }
 
 .card-gallery-bar{
-  @extend .hidden-slide;
   margin: auto;
   padding-top: 0.5em;
   vertical-align: middle;
   justify-content: center;
-  width: 100%;
-  display:flex;
+  display: flex;
+  overflow:auto;
   height: 25%;
   video{
     display:none;
   }
   iframe{
     display: none;
+  }
+  .card-image{
+    width:5rem;
+    height:5rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
   }
 }

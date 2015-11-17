@@ -1,5 +1,5 @@
 <div class = "card-important">
-  <div class="hidden-appear">
+  <div class="card-hidden">
     <h3>{{include.card.price}}</h3>
     <input  type="text" name="quantity">
     {% if include.page.hire %}
@@ -8,24 +8,23 @@
         <input type="submit" value="buy" name="buy" >
     {% endif %}
   </div>
-  {% if include.snippet  %}
-    <div class="card-image-container">
-        <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
-    </div>
-  {% else %}
+    {% if include.snippet != true %}
       <div class="card-gallery">
+        <div class="card-image-container">
+            <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
+        </div>
             <div class = "card-gallery-bar" >
-                <img class = "gallery-main-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
+                <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
               {% for image in include.card.image-gallery %}
-                    <img class = "gallery-item" src = "/products/images/{{image}}" alt="{{image}}">
+                    <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
               {% endfor %}
               {% for video in include.card.video-gallery %}
-                  <video class = "gallery-item">
+                  <video class = "card-image">
                     <source src="{{video}}" type="video/mp4">
                   </video>
               {% endfor %}
               {% for embed in include.card.embed-gallery %}
-                  <div class="card-embed-wrapper gallery-item">
+                  <div class="card-embed-wrapper">
                     {%capture thumbnail %}http://img.youtube.com/vi/{{ embed | remove:'www.youtube.com' }}/0.jpg{% endcapture %}
                     <img class="card-image" src="{{thumbnail}}">
                     <iframe src="http://{{embed}}" >
@@ -34,6 +33,10 @@
               {% endfor %}
           </div>
       </div>
+  {% else %}
+    <div class="card-image-container">
+        <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
+    </div>
   {% endif %}
 </div>
 <h1>{{include.card.productname}}</h1>
