@@ -3,6 +3,7 @@ function navbaropen(){
     slidein('.accordion-content', 'left', '0%');
 }
 
+
 function navbarclose(){
     slideout('.accordion-content', 'left', '-100%');
     fadeout('.overlay');
@@ -26,5 +27,7 @@ $(document).ready(function() {
   var mainMarginTop = $('#title').height()*1.6;
   $('#main').css('margin-top', mainMarginTop+"px");
   extendElipsisCutoff(".card-elipsis");
+
+  $('.card-gallery-bar').css('width')
 }
 )

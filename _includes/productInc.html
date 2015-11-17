@@ -14,19 +14,21 @@
     </div>
   {% else %}
       <div class="card-gallery">
-        <img class = "card-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
             <div class = "card-gallery-bar" >
+                <img class = "gallery-main-image" src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
               {% for image in include.card.image-gallery %}
-                    <img class = "card-image" src = "/products/images/{{image}}" alt="{{image}}">
+                    <img class = "gallery-item" src = "/products/images/{{image}}" alt="{{image}}">
               {% endfor %}
               {% for video in include.card.video-gallery %}
-                  <video class = "card-image">
+                  <video class = "gallery-item">
                     <source src="{{video}}" type="video/mp4">
                   </video>
               {% endfor %}
               {% for embed in include.card.embed-gallery %}
-                  <div class="card-embed-wrapper">
-                    <iframe class="card-image" src="http://{{embed}}">
+                  <div class="card-embed-wrapper gallery-item">
+                    {%capture thumbnail %}http://img.youtube.com/vi/{{ embed | remove:'www.youtube.com' }}/0.jpg{% endcapture %}
+                    <img class="card-image" src="{{thumbnail}}">
+                    <iframe src="http://{{embed}}" >
                     </iframe>
                   </div>
               {% endfor %}

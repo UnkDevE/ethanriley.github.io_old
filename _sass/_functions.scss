@@ -15,3 +15,13 @@
     $val : $val - 1;
     @return $val;
 }
+
+@function keyframe($element, $intervals, $end){
+    $out:"";
+    $interval: $intervals/$end;
+    @for $i from 1 through $intervals {
+        $percent : $interval * $i;
+        $out:$out+"#{$percent}{#{$element}:#{$percent}};";
+    }
+    @return $out;
+}
