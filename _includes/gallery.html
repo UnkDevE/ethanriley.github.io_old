@@ -15,7 +15,7 @@
             {% endfor %}
             {% for embed in include.card.embed-gallery %}
                 <div class="card-embed-wrapper">
-                  {%capture thumbnail %}http://img.youtube.com/vi/{{ embed | remove:'www.youtube.com' }}/0.jpg{% endcapture %}
+                  {%capture thumbnail %}http://img.youtube.com/vi/{{ embed| remove:'www.youtube.com/embed/' }}/0.jpg{% endcapture %}
                   <img class="card-image" src="{{thumbnail}}">
                   <iframe src="http://{{embed}}" >
                   </iframe>
