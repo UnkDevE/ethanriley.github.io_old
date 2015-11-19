@@ -50,6 +50,7 @@
   width: 100%;
 }
 
+
 .card-important{
   @extend .card-data;
   order: 2 ;
@@ -57,7 +58,7 @@
   margin: auto;
   width: auto;
   flex-grow: 1;
-  input{
+  button{
     width: 100%;
     height: 100%;
   }
@@ -130,11 +131,26 @@
 
 .card-gallery{
   display: inline-block;
-  width: 47.5%;
+  width: 48.5%;
   height: 45%;
   overflow:hidden;
   margin: auto;
 }
+
+#main_img{
+
+}
+#main_iframe{
+  display: none;
+  height: 25em;
+  width: 50em;
+}
+#main_video{
+  display: none;
+  height: 25em;
+  width: auto;
+}
+
 
 .card-gallery-bar{
   margin: auto;
@@ -144,16 +160,17 @@
   display: flex;
   overflow:auto;
   height: 25%;
-  video{
-    display:none;
-  }
-  iframe{
-    display: none;
-  }
   .card-image{
-    width:5rem;
-    height:5rem;
+    width:4.5rem;
+    height:4.5rem;
     margin-right: 0.25rem;
     margin-left: 0.25rem;
   }
+  .card-image:hover{
+
+  }
+}
+.card-overlay{
+  @extend .overlay;
+  position: relative;
 }
