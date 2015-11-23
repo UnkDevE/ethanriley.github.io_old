@@ -30,4 +30,4 @@ layout: card
 1. explain Jquery   
 2. js file
 3. responsive stuffs -- css div
-2. explain why you cannot have ids in for loops 
+2. explain why you cannot have ids in for loops

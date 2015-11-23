@@ -86,3 +86,20 @@
       padding: 0.95em;
   }
 }
+.socialmedia{
+  z-index:3;
+  position: fixed;
+  top:90%;
+  left:2.5%;
+  display: flex;
+  margin: auto;
+  img{
+    position: relative;
+    margin: 0.2em;
+    overflow: hidden;
+    width: 3.15em;
+    height: 3.15em;
+    box-shadow: 0 0em 0.85em 0 #212121;
+    border-radius: 100%;
+  }
+}

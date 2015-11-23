@@ -17,7 +17,7 @@ sass:
   style: compressed
 
 
-include: ['_pages', '_static', '_scripts']
+include: ['_pages', '_images', '_scripts']
 
 collections:
   news:
