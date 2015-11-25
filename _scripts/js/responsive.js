@@ -47,5 +47,11 @@ $(document).ready(function() {
 
   extendElipsisCutoff(".card-elipsis");
 //  $('.card-gallery-bar').css('width');
+  $('button').click(function(){
+    $('.card-important').append("<p>thankyou for your custom we shall get back to you shortly</p>");
+  });
+  $('button').click(function(){
+    $('.card-data-colum').append("<p>thankyou for your custom we shall get back to you shortly</p>");
+  });
 }
 )

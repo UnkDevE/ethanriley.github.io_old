@@ -153,6 +153,24 @@
         width: auto;
       }
 }
+.card-data-colum{
+  @extend .card-content;
+  text-align: center;
+  width: 100%;
+  textarea{
+    width: 20vw;
+    height: 20vh;
+  }
+  hr{
+    width:100%;
+    background-color: $grey;
+  }
+  button{
+    margin: auto;
+    display: block;
+    margin-top: 1em;
+  }
+}
 .card-elipsis{
   max-height: 6em;
   margin-bottom: 2.5em;

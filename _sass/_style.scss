@@ -16,6 +16,7 @@ body{
   z-index: 1;
   background: $background;
   font-family: 'Roboto', sans-serif;
+
   .style{
     #{headings(1,6)}{
         color:$boxshadowgrad1;
