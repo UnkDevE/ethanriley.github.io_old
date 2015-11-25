@@ -1,17 +1,28 @@
-.footer-bar{
-    z-index: 2;
+
+
+footer{
+  position: absolute;
+  top:100%;
+  width:100%;
+  height: 4em;
+  left:0;
+  background-color: $barblue;
+  box-shadow: 0 0 0.85em $boxshadowgrad1;
+  z-index: 2;
+  text-align: center;
+  a,.center{
+    margin-right:11.5%;
+    margin-left:11.5%;
     position: relative;
-    background-color: #00ACC1;
-    box-shadow: 0 0 0.85em #212121;
-    footer{
-      position: static;
-      display: block;
-      z-index: 2;
-      height: 4em;
-      width: 100%;
-      top: calc(100% - 4em );
-      left: 0;
-      padding:0;
-      margin:0;
-    }
+    color:white;
+  }
+  a{
+    text-decoration: underline;
+  }
+  a:hover{
+      text-decoration: none;
+  }
+  .center{
+    display: inline;
+  }
 }

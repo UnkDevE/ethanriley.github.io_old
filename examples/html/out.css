@@ -1,0 +1,13 @@
+.wrapper, #logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  width: 20%;
+  height: 20%;
+}
+
+#logo {
+  background-color: #111;
+  box-shadow: 0 3em 0 0 #111, 0 6em 0 0 #111;
+}

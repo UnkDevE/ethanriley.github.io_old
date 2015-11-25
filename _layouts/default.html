@@ -5,28 +5,28 @@
 <html>
 <body>
 
-    <div class="accordion-content">
-      <h2 id="navbar-title">{{site.title}}</h2>
-        {% for ipage in site.pages %}
-            {% if ipage.title != null %}
-              <div>
-                {% if ipage.title != page.title %}
-                  <h3><a href="{{ipage.url}}">{{ipage.title}}</a></h3>
-                {% else %}
-                  <h3 id="current-page">{{page.title}}</h3>
-                {% endif %}
-              </div>
-            {% endif %}
-        {% endfor %}
-    </div>
+  <div class="navbar">
+    <h2 id="navbar-title">{{site.title}}</h2>
+      {% for ipage in site.pages %}
+          {% if ipage.title != null %}
+            <div>
+              {% if ipage.title != page.title %}
+                <a href="{{ipage.url}}"><h3>{{ipage.title}}</h3></a>
+              {% else %}
+                <h3 id="current-page">{{page.title}}</h3>
+              {% endif %}
+            </div>
+          {% endif %}
+      {% endfor %}
+  </div>
 
     <a class="overlay" onclick="navbarclose()"></a>
 
       <div id="topbar" class="style">
           <div id="padder">
-            <div class="navicon">
-                <a onclick="navbaropen()"></a>
-            </div>
+              <div class="navicon" >
+                <a onclick="navbaropen();" ></a>
+              </div>
           </div>
           <div id="title">
                 <span>{{page.title}}</span>
@@ -39,19 +39,19 @@
           </main>
       </div>
 
-      <div class="socialmedia">
-        <a href="http://www.facebook.com">
-          <img src="/_images/facebookicon.svg">
-        </a>
-        <a href="http://www.twitter.com">
-          <img src="/_images/twittericon.svg">
-        </a>
-        <a href="http://plus.google.com">
-          <img src="/_images/googleplusicon.svg" id="google">
-        </a>
-      </div>
+        <div class="socialmedia">
+          <a href="http://www.facebook.com">
+            <img src="/_images/facebookicon.svg">
+          </a>
+          <a href="http://www.twitter.com">
+            <img src="/_images/twittericon.svg">
+          </a>
+          <a href="http://plus.google.com">
+            <img src="/_images/googleplusicon.svg" id="google">
+          </a>
+        </div>
 
-      {% include footer.html %}
+        {% include footer.html %}
 
   </body>
 </html>

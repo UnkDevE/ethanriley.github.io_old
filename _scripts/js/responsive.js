@@ -1,11 +1,11 @@
 function navbaropen(){
     fadein('.overlay', 3);
-    slidein('.accordion-content', 'left', '0%');
+    slidein('.navbar', 'left', '0%');
 }
 
 
 function navbarclose(){
-    slideout('.accordion-content', 'left', '-100%');
+    slideout('.navbar', 'left', '-100%');
     fadeout('.overlay');
 }
 
@@ -14,10 +14,14 @@ function extendElipsisCutoff(classname){
         elipsis: '...',
         wrap: 'letter',
         watch: true,
-        //after: a.readmore
       }
     );
 }
+
+function onlink(link){
+  window.location.assign(link);
+}
+
 function mainmedia(type, srclink){
   var id="#main_"+type;
   if(id !== "#main_img"){
@@ -34,21 +38,14 @@ function mainmedia(type, srclink){
   }
   $(id).attr('src', srclink);
   $(id).css('display', 'block');
-}
 
-function onlink(link){
-  window.location.assign(link);
 }
 
 $(document).ready(function() {
-  var mainMarginTop = $('#title').height()*1.6;
+  var mainMarginTop = $('#title').height()*1.6;//calculation for margins in main
   $('#main').css('margin-top', mainMarginTop+"px");
-  extendElipsisCutoff(".card-elipsis");
 
-  $('.card-gallery-bar').css('width');
-  $('button').click(function(){
-    $('.card-important').append("<p>thankyou for your custom we shall get back to you shortly</p>");
-    }
-  )
+  extendElipsisCutoff(".card-elipsis");
+//  $('.card-gallery-bar').css('width');
 }
 )

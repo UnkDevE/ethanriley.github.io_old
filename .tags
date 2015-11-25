@@ -1,49 +1,37 @@
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^<div class="card style">$/;"	function	line:1
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^    <div class="card-data">$/;"	function	line:2
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^              <h2 class="hidden-activator">{{page.hidden}}<\/h2>$/;"	function	line:8
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^                <div class="card-hidden">$/;"	function	line:9
 .feedback	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/products.scss	/^.feedback{$/;"	function	line:1
-.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card{$/;"	function	line:2
-.card-fullscreen	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-fullscreen{$/;"	function	line:18
-.card-link	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-link{$/;"	function	line:21
-.card-data	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-data{$/;"	function	line:25
-.card-image-container	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-image-container{$/;"	function	line:31
-.card-image	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-image{$/;"	function	line:37
-.card-important	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-important{$/;"	function	line:45
-.card-layout-matrix	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-layout-matrix{$/;"	function	line:52
-@media screen and (max-width: 1099px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  @media screen and (max-width: 1099px){$/;"	function	line:63
-.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card{$/;"	function	line:64
-@media screen and (min-width: 1100px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  @media screen and (min-width: 1100px){$/;"	function	line:69
-.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card{$/;"	function	line:70
-.card-hidden	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-hidden{$/;"	function	line:76
-.card-elipsis	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-elipsis{$/;"	function	line:80
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^<div class = "card-important">$/;"	function	line:1
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="hidden-appear">$/;"	function	line:2
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <h3>{{include.card.price}}<\/h3>$/;"	function	line:3
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <input  type="text" name="quantity">$/;"	function	line:4
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <input type="submit" value="hire" name="hire" >$/;"	function	line:6
-input	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <input type="submit" value="buy" name="buy" >$/;"	function	line:8
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="card-image-container">$/;"	function	line:11
-img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^      <img class = "card-image" src = "\/shop\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:12
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^<h1>{{include.card.productname}}<\/h1>$/;"	function	line:15
-a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a{$/;"	function	line:1
-a:visited	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:visited{$/;"	function	line:5
-a:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:hover{$/;"	function	line:9
-body	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^body{$/;"	function	line:13
-.style	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^  .style{$/;"	function	line:20
-#{headings(1,6)}	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^    #{headings(1,6)}{$/;"	function	line:21
-@media screen and (max-width: 799px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      @media screen and (max-width: 799px){$/;"	function	line:25
-h2	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h2{$/;"	function	line:26
-h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h3{$/;"	function	line:29
-p	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        p{$/;"	function	line:32
-@media screen and (min-width: 800px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      @media screen and (min-width: 800px){$/;"	function	line:37
-h2	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h2{$/;"	function	line:38
-h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h3{$/;"	function	line:41
-h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      h3{$/;"	function	line:45
-main	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^main{$/;"	function	line:51
 div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/feedback.html	/^<div class="feedback">$/;"	function	line:1
 h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/feedback.html	/^  <h2>feedback is disabled<\/h2>$/;"	function	line:2
 .feedback	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_products.scss	/^.feedback{$/;"	function	line:1
+html	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^  <html>$/;"	function	line:2
+head	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^  <head>$/;"	function	line:3
+meta	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^    <meta charset="utf-8">$/;"	function	line:4
+link	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^    <link rel="stylesheet" type="text\/css" href="example.css">$/;"	function	line:5
+body	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^  <body>$/;"	function	line:7
+div	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^    <div class="socialmedia">$/;"	function	line:8
+a	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^      <a href="http:\/\/www.facebook.com">$/;"	function	line:9
+img	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^        <img src="_images\/facebookicon.svg">$/;"	function	line:10
+a	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^      <a href="http:\/\/www.twitter.com">$/;"	function	line:12
+img	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^        <img src="_images\/twittericon.svg">$/;"	function	line:13
+a	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^      <a href="http:\/\/plus.google.com">$/;"	function	line:15
+img	/home/ethan/Documents/projects/programming/website/windandwaves/example.html	/^        <img src="_images\/googleplusicon.svg" id="google">$/;"	function	line:16
+boxshadowgrad1	/home/ethan/Documents/projects/programming/website/windandwaves/example.scss	/^$boxshadowgrad1:#212121;$/;"	function	line:1
+background	/home/ethan/Documents/projects/programming/website/windandwaves/example.scss	/^$background:#EEEEEE;$/;"	function	line:2
+.socialmedia	/home/ethan/Documents/projects/programming/website/windandwaves/example.scss	/^.socialmedia{$/;"	function	line:4
+img	/home/ethan/Documents/projects/programming/website/windandwaves/example.scss	/^  img{$/;"	function	line:12
+footer	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/footer.html	/^<footer>$/;"	function	line:1
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/footer.html	/^  <a href="contact">contact us.<\/a>$/;"	function	line:2
+p	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/footer.html	/^  <p class="center"> copyright &copy; Wind and waves <\/p>$/;"	function	line:3
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/footer.html	/^  <a href="aboutus"> about\/find us.<\/a>$/;"	function	line:4
+head	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^<head>$/;"	function	line:1
+meta	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <meta charset="utf-8">$/;"	function	line:2
+title	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <title>{% if page.title != null %}{{page.title}}{% else %}{{site.tite}}{% endif %}<\/title>$/;"	function	line:3
+link	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <link href='https:\/\/fonts.googleapis.com\/css?family=Roboto:400,700' rel='stylesheet' type='text\/css'>$/;"	function	line:5
+link	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <link rel="stylesheet" type="text\/css" href="\/css\/main.css">$/;"	function	line:6
+script	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <script type="text\/javascript" src="\/_scripts\/js\/3rd_party\/jquery-2.1.4.min.js"><\/script>$/;"	function	line:8
+script	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <script type="text\/javascript" src="\/_scripts\/js\/3rd_party\/jquery.dotdotdot.min.js"><\/script>$/;"	function	line:9
+script	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <script type="text\/javascript" src="\/_scripts\/js\/animations.js"><\/script>$/;"	function	line:10
+script	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/head.html	/^  <script type="text\/javascript" src="\/_scripts\/js\/responsive.js"><\/script>$/;"	function	line:11
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/cards.html	/^<div class="card-layout-matrix">$/;"	function	line:4
 slideout	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function slideout(element, positiontag, endpostion){$/;"	function	line:2
 slideout	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function slideout(element, positiontag, endpostion){$/;"	function	line:2
 slidein	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function slidein(element, positiontag, endpostion){$/;"	function	line:6
@@ -52,21 +40,198 @@ fadeout	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts
 fadeout	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function fadeout(element){$/;"	function	line:10
 fadein	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function fadein(element, index){$/;"	function	line:14
 fadein	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/animations.js	/^function fadein(element, index){$/;"	function	line:14
-navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbaropen(){$/;"	function	line:1
-navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbaropen(){$/;"	function	line:1
-navbarclose	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbarclose(){$/;"	function	line:6
-navbarclose	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbarclose(){$/;"	function	line:6
-extendElipsisCutoff	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function extendElipsisCutoff(classname){$/;"	function	line:11
-extendElipsisCutoff	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function extendElipsisCutoff(classname){$/;"	function	line:11
-onlink	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function onlink(link){$/;"	function	line:21
-onlink	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function onlink(link){$/;"	function	line:21
+slidein	/home/ethan/Documents/projects/programming/website/windandwaves/example.js	/^function slidein(element, positiontag, endpostion){$/;"	function	line:5
+fadein	/home/ethan/Documents/projects/programming/website/windandwaves/example.js	/^function fadein(element, index){$/;"	function	line:9
+navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/example.js	/^function navbaropen(){$/;"	function	line:16
+navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/example.js	/^function navbaropen(){$/;"	function	line:16
 .hidden-activator	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.hidden-activator{$/;"	function	line:1
-.hidden-appear	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.hidden-appear{$/;"	function	line:7
-.hidden-slide	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.hidden-slide{$/;"	function	line:15
-.overlay	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.overlay{$/;"	function	line:22
-%elipsis-overflow	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^%elipsis-overflow{$/;"	function	line:36
-.readmore	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.readmore{$/;"	function	line:40
+%hidden-appear	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^%hidden-appear{$/;"	function	line:4
+%hidden-slide	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^%hidden-slide{$/;"	function	line:12
+.overlay	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.overlay{$/;"	function	line:19
+%elipsis-overflow	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^%elipsis-overflow{$/;"	function	line:32
+.readmore	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_hidden.scss	/^.readmore{$/;"	function	line:35
+title	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^title: Wind and Waves$/;"	function	line:2
+email	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^email: riley787cmplex@gmail.com$/;"	function	line:3
+description	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^description: > # this means to ignore newlines until "baseurl:"$/;"	function	line:4
+baseurl	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^baseurl: "" # the subpath of your site, e.g. \/blog\/$/;"	function	line:8
+url	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^url: "http:\/\/ethanriley.github.io\/" # the base hostname & protocol for your site$/;"	function	line:9
+twitter_username	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^twitter_username: jekyllrb$/;"	function	line:10
+github_username	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^github_username:  jekyll$/;"	function	line:11
+published	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^published: true$/;"	function	line:12
+sass	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^sass:$/;"	function	line:15
+sass_dir	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^  sass_dir: _sass$/;"	function	line:16
+style	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^  style: compressed$/;"	function	line:17
+include	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^include: ['_pages', '_images', '_scripts']$/;"	function	line:20
+collections	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^collections:$/;"	function	line:22
+products	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^  products:$/;"	function	line:23
+output	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^    output: true$/;"	function	line:24
+permalink	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^    permalink: \/products\/:path.html$/;"	function	line:25
+images	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^    images:$/;"	function	line:26
+output	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^      output: true$/;"	function	line:27
+permalink	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^      permalink: \/products\/images\/:path$/;"	function	line:28
+markdown	/home/ethan/Documents/projects/programming/website/windandwaves/_config.yml	/^markdown: kramdown$/;"	function	line:31
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a{$/;"	function	line:1
+a:visited	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:visited{$/;"	function	line:5
+a:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^a:hover{$/;"	function	line:10
+body	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^body{$/;"	function	line:14
+.style	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^  .style{$/;"	function	line:19
+#{headings(1,6)}	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^    #{headings(1,6)}{$/;"	function	line:20
+@media screen and (max-width: 799px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      @media screen and (max-width: 799px){$/;"	function	line:24
+h2	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h2{$/;"	function	line:25
+h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h3{$/;"	function	line:28
+p	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        p{$/;"	function	line:31
+@media screen and (min-width: 800px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      @media screen and (min-width: 800px){$/;"	function	line:36
+h2	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h2{$/;"	function	line:37
+h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^        h3{$/;"	function	line:40
+h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^      h3{$/;"	function	line:44
+main	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_style.scss	/^main{$/;"	function	line:50
+background	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$background:#EEEEEE;$/;"	function	line:2
+card-white	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$card-white:#FAFAFA;$/;"	function	line:3
+boxshadowgrad3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$boxshadowgrad3:#616161;$/;"	function	line:4
+linkblue	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$linkblue:#42a5f5;$/;"	function	line:5
+darkergrey	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$darkergrey:#424242;$/;"	function	line:6
+barblue	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$barblue:#00ACC1;$/;"	function	line:7
+boxshadowgrad1	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$boxshadowgrad1:#212121;$/;"	function	line:8
+boxshadowgrad2	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$boxshadowgrad2:#111;$/;"	function	line:9
+barblue	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$barblue:#00ACC1;$/;"	function	line:10
+boxshadowgrad1	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$boxshadowgrad1:#212121;$/;"	function	line:11
+navbarbuttoncolor	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$navbarbuttoncolor:#111;$/;"	function	line:12
+stormgrey	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$stormgrey: #455a64;$/;"	function	line:13
+background	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$background:#EEEEEE;$/;"	function	line:14
+bluegreyhover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$bluegreyhover:#B0BEC5;$/;"	function	line:15
+slightgrey	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$slightgrey:#e3f2fd;$/;"	function	line:16
+grey	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$grey:#bdbdbd;$/;"	function	line:17
+darkgrey	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_vars.scss	/^$darkgrey:#323232;$/;"	function	line:18
+footer	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_footer.scss	/^footer{$/;"	function	line:3
+a,.center	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_footer.scss	/^  a,.center{$/;"	function	line:13
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_footer.scss	/^  a{$/;"	function	line:19
+a:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_footer.scss	/^  a:hover{$/;"	function	line:22
+.center	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_footer.scss	/^  .center{$/;"	function	line:25
 div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^  <div class="card style">$/;"	function	line:1
 div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^      <div class="card-data">$/;"	function	line:2
-h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^                  <h2 class="hidden-activator" onclick="fadein('.card-data.hidden-activator')"> {{include.card.hidden}}<\/h2>$/;"	function	line:12
-div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^                    <div class="card-hidden">$/;"	function	line:13
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^            <div class="card-content">$/;"	function	line:6
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^                  <h2 class="card-link" onclick="fadein('.card-data.card-hidden, 1)"> {{include.card.hidden}}<\/h2>$/;"	function	line:17
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card.html	/^                    <div class="card-hidden">$/;"	function	line:18
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^<div class="card style card-link" onclick="onlink({{url}})">$/;"	function	line:3
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^    <div class="card-data">$/;"	function	line:4
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^        <div class="card-elipsis">$/;"	function	line:8
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^            <h1 class="card-header">{{include.card.header}}<\/h1>$/;"	function	line:10
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^              <h1 class="card-header">{{include.card.productname}}<\/h1>$/;"	function	line:12
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^                <h2 class="hidden-activator">{{include.card.hidden}}<\/h2>$/;"	function	line:20
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/card-snippet.html	/^                  <div class="card-hidden">$/;"	function	line:21
+navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbaropen(){$/;"	function	line:1
+navbaropen	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbaropen(){$/;"	function	line:1
+navbarclose	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbarclose(){$/;"	function	line:7
+navbarclose	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function navbarclose(){$/;"	function	line:7
+extendElipsisCutoff	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function extendElipsisCutoff(classname){$/;"	function	line:12
+extendElipsisCutoff	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function extendElipsisCutoff(classname){$/;"	function	line:12
+onlink	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function onlink(link){$/;"	function	line:21
+onlink	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function onlink(link){$/;"	function	line:21
+mainmedia	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function mainmedia(type, srclink){$/;"	function	line:25
+mainmedia	/home/ethan/Documents/projects/programming/website/windandwaves/_scripts/js/responsive.js	/^function mainmedia(type, srclink){$/;"	function	line:25
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^<div class="card-layout-matrix">$/;"	function	line:4
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^  <div class="card-fullscreen style">$/;"	function	line:5
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^      <div class="card-data">$/;"	function	line:6
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^          <div class="card-content">$/;"	function	line:10
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^                <h1 class="card-header">{{page.header}} <\/h1>$/;"	function	line:12
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^              <h1 class="card-header">{{page.productname}} <\/h1>$/;"	function	line:14
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/card.html	/^              <h1 class="card-header">{{page.title}} <\/h1>$/;"	function	line:16
+html	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^<html>$/;"	function	line:5
+body	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^<body>$/;"	function	line:6
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^  <div class="navbar">$/;"	function	line:8
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^    <h2 id="navbar-title">{{site.title}}<\/h2>$/;"	function	line:9
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^            <div>$/;"	function	line:12
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^                <a href="{{ipage.url}}"><h3>{{ipage.title}}<\/h3><\/a>$/;"	function	line:14
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^                <h3 id="current-page">{{page.title}}<\/h3>$/;"	function	line:16
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^    <a class="overlay" onclick="navbarclose()"><\/a>$/;"	function	line:23
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^      <div id="topbar" class="style">$/;"	function	line:25
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <div id="padder">$/;"	function	line:26
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^              <div class="navicon" >$/;"	function	line:27
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^                <a onclick="navbaropen();" ><\/a>$/;"	function	line:28
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <div id="title">$/;"	function	line:31
+span	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^                <span>{{page.title}}<\/span>$/;"	function	line:32
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^      <div id="main" class="style">$/;"	function	line:36
+main	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <main>$/;"	function	line:37
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^        <div class="socialmedia">$/;"	function	line:42
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <a href="http:\/\/www.facebook.com">$/;"	function	line:43
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^            <img src="\/_images\/facebookicon.svg">$/;"	function	line:44
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <a href="http:\/\/www.twitter.com">$/;"	function	line:46
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^            <img src="\/_images\/twittericon.svg">$/;"	function	line:47
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^          <a href="http:\/\/plus.google.com">$/;"	function	line:49
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_layouts/default.html	/^            <img src="\/_images\/googleplusicon.svg" id="google">$/;"	function	line:50
+#topbar	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^#topbar{$/;"	function	line:3
+#title	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  #title{$/;"	function	line:13
+span	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^    span{$/;"	function	line:17
+#padder	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  #padder{$/;"	function	line:26
+.navicon	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^      .navicon{$/;"	function	line:30
+box-shadow: 0 0.4em 0 0 $navbarbuttoncolor	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^          box-shadow: 0 0.4em 0 0 $navbarbuttoncolor,$/;"	function	line:38
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^      a{$/;"	function	line:42
+%hidden-slide	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^%hidden-slide{$/;"	function	line:53
+.overlay	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^.overlay{$/;"	function	line:62
+.navbar	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^.navbar{$/;"	function	line:74
+h3	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  h3{$/;"	function	line:83
+a	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  a{$/;"	function	line:88
+a:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  a:hover{$/;"	function	line:95
+#navbar-title	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  #navbar-title{$/;"	function	line:98
+#current-page	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  #current-page{$/;"	function	line:104
+.socialmedia	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^.socialmedia{$/;"	function	line:112
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_navbar.scss	/^  img{$/;"	function	line:119
+$('button').click(function()	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^$('button').click(function(){$/;"	function	line:3
+.card-overlay	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^.card-overlay{$/;"	function	line:13
+body	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^body{background-color: #EEEEEE;}$/;"	function	line:17
+.socialmedia	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^.socialmedia {$/;"	function	line:18
+.socialmedia img	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^.socialmedia img {$/;"	function	line:27
+.accordion-content	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^.accordion-content{$/;"	function	line:37
+h3	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^  h3{$/;"	function	line:46
+a	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^    a{$/;"	function	line:50
+h3:hover	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^  h3:hover{$/;"	function	line:61
+#navbar-title	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^  #navbar-title{$/;"	function	line:64
+#current-page	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^  #current-page{$/;"	function	line:70
+.card-data	/home/ethan/Documents/projects/programming/website/windandwaves/example.css	/^.card-data{$/;"	function	line:77
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/newsline.html	/^<div class="card-important">$/;"	function	line:1
+h	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/newsline.html	/^  <h1 class="card-header headline">{{include.card.headline}}<\/h1>$/;"	function	line:2
+hr	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/newsline.html	/^  <hr>$/;"	function	line:3
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/newsline.html	/^  <img class="card-image-full" src="{{include.card.Headimage}}">$/;"	function	line:4
+i	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/newsline.html	/^    <i>{{include.card.caption}}<\/i>$/;"	function	line:6
+.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card{$/;"	function	line:3
+.card-image-container	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-image-container{$/;"	function	line:18
+#main_img	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    #main_img{$/;"	function	line:24
+.card-gallery	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-gallery{$/;"	function	line:32
+.card-gallery-bar	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-gallery-bar{$/;"	function	line:39
+.card-image	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  .card-image{$/;"	function	line:47
+.card-image:hover	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  .card-image:hover{$/;"	function	line:53
+.card-image:visited	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  .card-image:visited{$/;"	function	line:56
+.main_media	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  .main_media{$/;"	function	line:59
+#main_iframe	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  #main_iframe{$/;"	function	line:67
+#main_video	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  #main_video{$/;"	function	line:70
+.card-image	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-image{$/;"	function	line:75
+.card-data	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-data{$/;"	function	line:84
+.card-fullscreen	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-fullscreen{$/;"	function	line:95
+.card-layout-matrix	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-layout-matrix{$/;"	function	line:99
+@media screen and (max-width: 1099px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  @media screen and (max-width: 1099px){$/;"	function	line:109
+.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card{$/;"	function	line:110
+.card-fullscreen	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card-fullscreen{$/;"	function	line:114
+@media screen and (min-width: 1100px)	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  @media screen and (min-width: 1100px){$/;"	function	line:119
+.card	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card{$/;"	function	line:120
+.card-fullscreen	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^    .card-fullscreen{$/;"	function	line:124
+.card-fullscreen	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^  .card-fullscreen{$/;"	function	line:129
+.card-link	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-link{$/;"	function	line:134
+.card-content	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-content{$/;"	function	line:137
+h1	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^      h1{$/;"	function	line:146
+p	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^      p{$/;"	function	line:151
+.card-elipsis	/home/ethan/Documents/projects/programming/website/windandwaves/_sass/_card.scss	/^.card-elipsis{$/;"	function	line:156
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <div class="card-gallery">$/;"	function	line:2
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^      <div class="card-image-container">$/;"	function	line:3
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <img id="main_img" class = "card-image" src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:5
+iframe	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <iframe id="main_iframe">$/;"	function	line:6
+video	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <video id="main_video" class="card-image">$/;"	function	line:8
+source	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^              <source  type="video\/mp4">$/;"	function	line:9
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^          <div class = "card-gallery-bar" >$/;"	function	line:12
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^              <img class = "card-image" onmouseover='mainmedia("img","\/products\/images\/{{include.card.product-imagesrc}}")' src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:13
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <img class = "card-image" onmouseover='mainmedia("img","\/products\/images\/{{image}}")' src = "\/products\/images\/{{image}}" alt="{{image}}">$/;"	function	line:15
+video	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                <video class = "card-image" onmouseover='mainmedia("video","{{video}}")'>$/;"	function	line:18
+source	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <source src="{{video}}" type="video\/mp4">$/;"	function	line:19
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                <div class="card-embed-wrapper">$/;"	function	line:23
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <img class="card-image" src="{{thumbnail}}" onmouseover='mainmedia("iframe","{{embed}}")'>$/;"	function	line:25
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="card-image-container">$/;"	function	line:31
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <img class = "card-image" src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:32

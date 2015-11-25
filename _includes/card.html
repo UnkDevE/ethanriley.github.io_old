@@ -14,7 +14,7 @@
               {% endif %}
             </div>
             {% if include.card.hidden != null and include.root == null %}
-                  <h2 class="hidden-activator" onclick="fadein('.card-data.hidden-activator')"> {{include.card.hidden}}</h2>
+                  <h2 class="card-link" onclick="fadein('.card-data.card-hidden, 1)"> {{include.card.hidden}}</h2>
                     <div class="card-hidden">
                       {% include {{include.card.footer}} card=page%}
                   </div>

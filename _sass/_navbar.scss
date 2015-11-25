@@ -1,15 +1,16 @@
+
+
 #topbar{
   position: fixed;
   z-index: 2;
   left:0;
   top:0;
   width: 100%;
-  background-color: #00ACC1;
+  background-color: $barblue;
   padding:0;
   margin: 0;
-  box-shadow: 0 0 0.85em #212121;
+  box-shadow: 0 0 0.85em $boxshadowgrad1;
   #title{
-    left:0%;
     padding-top:0.65em;
     padding-bottom: 0.65em;
     display: inline-block;
@@ -19,7 +20,7 @@
       padding-left: 1.750em;
       display: inline;
       font-size: 1.65rem;
-      color:#ffffff;
+      color:white;
     }
   }
   #padder{
@@ -32,64 +33,86 @@
           top: 1.1em;
           height: 0.25em;
           width: 1.35em;
-          background: #111;
+          background: $navbarbuttoncolor;
           border-radius: 5%;
-          box-shadow: 0 0.4em 0 0 #111,
-          0 0.8em 0 0 #111;
-          a{
-            cursor: pointer;
-            content: '';
-            position: fixed;
-            width: 1.2em;
-            height: 1.23em;
-          }
+          box-shadow: 0 0.4em 0 0 $navbarbuttoncolor,
+          0 0.8em 0 0 $navbarbuttoncolor;
+
+      }
+      a{
+        position: fixed;
+        width:1.35em;
+        height:1.9em;
+        cursor: pointer;
+        content:"";
       }
     }
 }
-.accordion-content{
+
+/*
+%hidden-slide{
+  position: fixed;
+  transition: all 0.875s ease;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+*/
+/*
+.overlay{
+  z-index: 1;
+  opacity: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  @extend %hidden-slide;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+*/
+.navbar{
   @extend %hidden-slide;
   z-index: 9;
-  background-color: #37474f;
-  left:-100%;
+  background-color: $background;
+  left:-15em;
   top:0;
   width: 14.75em;
   height: 100%;
-  box-shadow: 0 0 0.95em #212121;
+  box-shadow: 0 0 0.95em $boxshadowgrad1;
   h3{
     margin:0;
     padding: 0;
-    font-size: 1.45;
-    a{
-      padding: 0.95em;
-      margin: 0;
-      content: '';
-      display: block;
-      font-size: 1.45rem;
-      font-style: normal;
-      text-decoration: none;
-      color:#F5F5F5;
-    }
+    font-size: 1.45em;
   }
-  h3:hover{
-    background-color:  #455a64;
+  a{
+    padding: 1.4em;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    color:$darkgrey;
+  }
+  a:hover{
+    background-color: $bluegreyhover;
   }
   #navbar-title{
     top:0em;
-    background: #bdbdbd;
+    background-color: $grey;
     padding: 1em;
     margin:0;
   }
   #current-page{
+      background-color: $grey;
       font-size: 1.35rem;
       top:0em;
-      background: #e3f2fd;
+      opacity: 0.5;
       padding: 0.95em;
   }
 }
 .socialmedia{
   z-index:3;
   position: fixed;
-  top:90%;
+  top:calc(100% - 4em - 5%);
   left:2.5%;
   display: flex;
   margin: auto;
@@ -99,7 +122,7 @@
     overflow: hidden;
     width: 3.15em;
     height: 3.15em;
-    box-shadow: 0 0em 0.85em 0 #212121;
+    box-shadow: 0 0em 0.65em 0 #212121;
     border-radius: 100%;
   }
 }

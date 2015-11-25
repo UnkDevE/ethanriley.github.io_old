@@ -10,19 +10,19 @@
             </video>
       </div>
           <div class = "card-gallery-bar" >
-              <img class = "card-image" onclick='mainmedia("img","/products/images/{{include.card.product-imagesrc}}")' src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
+              <img class = "card-image" onmouseover='mainmedia("img","/products/images/{{include.card.product-imagesrc}}")' src = "/products/images/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">
             {% for image in include.card.image-gallery %}
-                  <img class = "card-image" onclick='mainmedia("img","/products/images/{{image}}")' src = "/products/images/{{image}}" alt="{{image}}">
+                  <img class = "card-image" onmouseover='mainmedia("img","/products/images/{{image}}")' src = "/products/images/{{image}}" alt="{{image}}">
             {% endfor %}
             {% for video in include.card.video-gallery %}
-                <video class = "card-image" onclick='mainmedia("video","{{video}}")'>
+                <video class = "card-image" onmouseover='mainmedia("video","{{video}}")'>
                   <source src="{{video}}" type="video/mp4">
                 </video>
             {% endfor %}
             {% for embed in include.card.embed-gallery %}
                 <div class="card-embed-wrapper">
                   {%capture thumbnail %}http://img.youtube.com/vi/{{ embed| remove:'www.youtube.com/embed/' }}/0.jpg{% endcapture %}
-                  <img class="card-image" src="{{thumbnail}}" onclick='mainmedia("iframe","{{embed}}")'>
+                  <img class="card-image" src="{{thumbnail}}" onmouseover='mainmedia("iframe","{{embed}}")'>
                 </div>
             {% endfor %}
         </div>

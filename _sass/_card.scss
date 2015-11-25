@@ -1,28 +1,84 @@
+
 //main card class
 .card{
     display: flex;
-    z-index: 1;
     height: 90%;
     width: 90%;
     left: 5%;
     top: 5%;
-    padding: 0;
     padding-top: 0.9rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
     margin-bottom: 1.5em;
-    background-color: #FAFAFA;
-    box-shadow: 0 0 0.25em #616161;
+    background-color: $card-white;
+    box-shadow: 0 0 0.25em $boxshadowgrad3;
+}
+.card-image-container{
+    text-align: center;
+    display: flex;
+    margin:auto;
+    height:20%;
+    width: auto;
+    #main_img{
+      @extend .main_media;
+      max-width: 45vw;
+      max-height: 100%;
+      display:block;
+    }
 }
 
-.card-fullscreen{
-    @extend .card;
+.card-gallery{
+  display: inline-block;
+  width: 48.5%;
+  height: 45%;
+  overflow:hidden;
+  margin: auto;
+}
+.card-gallery-bar{
+  margin: auto;
+  padding-top: 0.5em;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  overflow:auto;
+  height: auto;
+  .card-image{
+    width:4rem;
+    height:4rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+  }
+  .card-image:hover{
+    opacity: 0.5;
+  }
+  .card-image:visited{
+    opacity: 0.5;
+  }
+  .main_media{
+    display: none;
+    max-height: 50em;
+    max-width: 50em;
+    width: auto;
+    height: auto;
+  }
+
+  #main_iframe{
+    @extend .main_media;
+  }
+  #main_video{
+    @extend .main_media;
+  }
 }
 
-.card-link{
-    cursor: pointer;
+.card-image{
+  position: relative;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  height: 50vh;
+  max-width: 100%;
 }
 
 .card-data{
@@ -31,71 +87,24 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: stretch;
+  justify-content: center;
   height: auto;
   width: auto;
 }
 
-.card-image-container{
-    text-align: center;
-    display: flex;
-    height: auto;
-}
-
-.card-image{
-  position: relative;
-  display: block;
-  margin: auto;
-  vertical-align: middle;
-  height: 20%;
-  width: 100%;
-}
-
-
-.card-important{
-  @extend .card-data;
-  order: 2 ;
-  display: flex;
-  margin: auto;
-  width: auto;
-  flex-grow: 1;
-  button{
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.card-content{
-      position: static;
-      display: flex;
-      flex-wrap: wrap;
-      flex-flow: column;
-      margin: auto;
-      margin-top: 0;
-      width: 50%;
-      height: 100%;
-      font-size: 100%;
-      justify-content: center;
-      h1{
-        height: 15%;
-        width: auto;
-        text-align: center;
-      }
-      p{
-        height: 85%;
-        width: auto;
-      }
+.card-fullscreen{
+    @extend .card;
 }
 
 .card-layout-matrix{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     vertical-align: middle;
-    position: relative;
     padding: 0;
     margin: 0;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-grow: row;
-    flex-wrap: wrap;
     justify-content: center;
   @media screen and (max-width: 1099px){
     .card{
@@ -117,60 +126,34 @@
       width: 85%;
     }
   }
+  .card-fullscreen{
+    height: 20%;
+    width: 85%;
+  }
 }
-
-.card-hidden{
-  @extend .hidden-appear;
+.card-link{
+    cursor: pointer;
 }
-
+.card-content{
+      position: static;
+      flex-flow: column;
+      @extend .card-layout-matrix;
+      margin: auto;
+      margin-top: 0;
+      width: 50%;
+      font-size: 100%;
+      vertical-align: initial;
+      h1{
+        height: 15%;
+        width: auto;
+        text-align: center;
+      }
+      p{
+        height: 85%;
+        width: auto;
+      }
+}
 .card-elipsis{
-  @extend %elipsis-overflow;
-  max-height: 5em;
+  max-height: 6em;
   margin-bottom: 2.5em;
-}
-
-.card-gallery{
-  display: inline-block;
-  width: 48.5%;
-  height: 45%;
-  overflow:hidden;
-  margin: auto;
-}
-
-#main_img{
-
-}
-#main_iframe{
-  display: none;
-  height: 25em;
-  width: 50em;
-}
-#main_video{
-  display: none;
-  height: 25em;
-  width: auto;
-}
-
-
-.card-gallery-bar{
-  margin: auto;
-  padding-top: 0.5em;
-  vertical-align: middle;
-  justify-content: center;
-  display: flex;
-  overflow:auto;
-  height: 25%;
-  .card-image{
-    width:4.5rem;
-    height:4.5rem;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-  }
-  .card-image:hover{
-
-  }
-}
-.card-overlay{
-  @extend .overlay;
-  position: relative;
 }

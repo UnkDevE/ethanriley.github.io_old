@@ -1,19 +1,17 @@
 ---
 layout: default
 ---
-<div class="cards-center">
-  <div class="card-layout-matrix">
-    {% if page.content != "" %}
-        {% include card.html card=page root=page.root %}
-    {% endif %}
-    {% if page.root %}
-      {% for icard in site.[page.collection] %}
-        {% if page.snippets %}
-            {% include card-snippet.html card=icard root=page.root %}
-        {% else %}
-            {% include card.html card=icard root=page.root %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  </div>
+<div class="card-layout-matrix">
+  {% if page.content != "" %}
+      {% include card.html card=page root=page.root %}
+  {% endif %}
+  {% if page.root %}
+    {% for icard in site.[page.collection] %}
+      {% if page.snippets %}
+          {% include card-snippet.html card=icard root=page.root %}
+      {% else %}
+          {% include card.html card=icard root=page.root %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </div>

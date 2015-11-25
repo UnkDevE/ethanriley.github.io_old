@@ -20,8 +20,6 @@ sass:
 include: ['_pages', '_images', '_scripts']
 
 collections:
-  news:
-    output: true
   products:
     output: true
     permalink: /products/:path.html

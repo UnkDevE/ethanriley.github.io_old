@@ -4,3 +4,18 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^    <div class="card-gallery">$/;"	function	line:2
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^      <div class="card-image-container">$/;"	function	line:3
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <img id="main_img" class = "card-image" src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:5
+iframe	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <iframe id="main_iframe">$/;"	function	line:6
+video	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^            <video id="main_video" class="card-image">$/;"	function	line:8
+source	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^              <source  type="video\/mp4">$/;"	function	line:9
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^          <div class = "card-gallery-bar" >$/;"	function	line:12
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^              <img class = "card-image" onmouseover='mainmedia("img","\/products\/images\/{{include.card.product-imagesrc}}")' src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:13
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <img class = "card-image" onmouseover='mainmedia("img","\/products\/images\/{{image}}")' src = "\/products\/images\/{{image}}" alt="{{image}}">$/;"	function	line:15
+video	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                <video class = "card-image" onmouseover='mainmedia("video","{{video}}")'>$/;"	function	line:18
+source	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <source src="{{video}}" type="video\/mp4">$/;"	function	line:19
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                <div class="card-embed-wrapper">$/;"	function	line:23
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^                  <img class="card-image" src="{{thumbnail}}" onmouseover='mainmedia("iframe","{{embed}}")'>$/;"	function	line:25
+div	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^  <div class="card-image-container">$/;"	function	line:31
+img	/home/ethan/Documents/projects/programming/website/windandwaves/_includes/gallery.html	/^        <img class = "card-image" src = "\/products\/images\/{{include.card.product-imagesrc}}" alt="{{include.card.productname}} image">$/;"	function	line:32

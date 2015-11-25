@@ -1,0 +1,8 @@
+<div class="card-important">
+  <h1 class="card-header headline">{{include.card.headline}}</h1>
+  <hr>
+  <img class="card-image-full" src="{{include.card.Headimage}}">
+  {% if include.card.caption != "" %}
+    <i>{{include.card.caption}}</i>
+  {% endif %}
+</div>
