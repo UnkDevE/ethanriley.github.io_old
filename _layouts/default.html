@@ -13,8 +13,8 @@
             <div>
               {% if ipage.title != page.title %}
                 {% if ipage.root == true and ipage.collection != null and ipage.title != "Shop" %}
-                  <a onclick="alert('tis done.')" class="card-link"><h3>{{ipage.title}}</h3></a>
-                  <div class="dropdown">
+                  <a onclick="dropdown('{{ipage.collection}}')" class="card-link"><h3>{{ipage.title}}</h3></a>
+                  <div class="dropdown" id="drop_{{ipage.collection}}">
                     {% if ipage.title != "News." %}
                       <a href="{{ipage.url}}"><h5>{{ipage.title}}</h5></a>
                     {% endif %}

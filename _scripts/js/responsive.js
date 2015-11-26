@@ -2,7 +2,10 @@ function navbaropen(){
     fadein('.overlay', 3);
     slidein('.navbar', 'left', '0%');
 }
-
+function dropdown(id){
+  element="#drop_"+id;
+  $(element).css('height', '100%');
+}
 
 function navbarclose(){
     slideout('.navbar', 'left', '-100%');
