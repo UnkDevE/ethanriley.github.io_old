@@ -3,6 +3,6 @@ layout: cards
 root: true
 snippets: true
 collection: products
-title : shop
+title : Shop
 permalink: /shop/
 ---

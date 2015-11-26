@@ -1,5 +1,6 @@
 ---
 layout: newscard
+collection: about_us
 important: newsline.html
 headimage: Penguins.jpg
 root: true

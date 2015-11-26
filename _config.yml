@@ -20,12 +20,20 @@ sass:
 include: ['_pages', '_images', '_scripts']
 
 collections:
-  products:
-    output: true
-    permalink: /products/:path.html
-    images:
+    news:
       output: true
-      permalink: /products/images/:path
+    products:
+      output: true
+      permalink: /products/:path.html
+      images:
+        output: true
+        permalink: /products/images/:path
+    about_us:
+      output: true
+      permalink: /about_us/:path.html
+      images:
+        output: true
+        permalink: /about_us/images/:path
 
 # Build settings
 markdown: kramdown

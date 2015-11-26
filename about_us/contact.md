@@ -1,8 +1,7 @@
 ---
 layout: newscard
-root: true
-title : contact us
-permalink: /contact/
+title: contact
+root: false
 footer: feedback.html
 header: please first fill out this feedback to contact us.
 ---
