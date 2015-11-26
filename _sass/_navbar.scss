@@ -11,6 +11,7 @@
   margin: 0;
   box-shadow: 0 0 0.85em $boxshadowgrad1;
   #title{
+    left:5%;
     padding-top:0.65em;
     padding-bottom: 0.65em;
     display: inline-block;
@@ -125,14 +126,14 @@
       }
     }
   }
-
-.socialmedia{
-  z-index:3;
-  position: fixed;
-  top:calc(100% - 4em - 5%);
-  left:2.5%;
-  display: flex;
-  margin: auto;
+}
+  .socialmedia{
+      z-index:3;
+      position: fixed;
+      top:calc(100% - 4em - 5%);
+      left:2.5%;
+      display: flex;
+      margin: auto;
   img{
     position: relative;
     margin: 0.2em;
@@ -144,4 +145,7 @@
   }
 }
 
-}
+
+
+
+
