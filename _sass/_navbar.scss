@@ -120,15 +120,13 @@
         left:50%;
       }
     }
-  }
-
-.socialmedia{
-  z-index:3;
-  position: fixed;
-  top:calc(100% - 4em - 5%);
-  left:2.5%;
-  display: flex;
-  margin: auto;
+  .socialmedia{
+      z-index:3;
+      position: fixed;
+      top:calc(100% - 4em - 5%);
+      left:2.5%;
+      display: flex;
+      margin: auto;
   img{
     position: relative;
     margin: 0.2em;
@@ -139,5 +137,8 @@
     border-radius: 100%;
   }
 }
+  }
 
-}
+
+
+
