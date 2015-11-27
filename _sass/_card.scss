@@ -1,5 +1,17 @@
-
 //main card class
+.card-important{
+  button{
+    width: 3.5em;
+    height: 2.5em;
+    background-color: white;
+    box-shadow: 0 0 0.45em $boxshadowgrad3;
+    border: 0;
+    border-radius: 5%;
+    font-weight: 600;
+    color:$linkblue;
+    }
+    text-align: center;
+}
 .card{
     display: flex;
     height: 90%;
@@ -168,6 +180,13 @@
   hr{
     width:100%;
     background-color: $grey;
+  }
+  form{
+    text-align: center;
+  }
+  p{
+    position: relative;
+    left:1.5em;
   }
 }
 .card-header{

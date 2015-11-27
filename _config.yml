@@ -22,6 +22,8 @@ include: ['_pages', '_images', '_scripts']
 collections:
     news:
       output: true
+      media:
+        output: true;
     products:
       output: true
       permalink: /products/:path.html
@@ -31,9 +33,7 @@ collections:
     about_us:
       output: true
       permalink: /about_us/:path.html
-      images:
-        output: true
-        permalink: /about_us/images/:path
+
 
 # Build settings
 markdown: kramdown

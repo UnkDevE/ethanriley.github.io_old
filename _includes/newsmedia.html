@@ -1,0 +1,12 @@
+<div class="card-important">
+  {% if include.card.headimage != null %}
+    <img class="card-image" src="/news/media{{include.card.headimage}}">
+  {% elsif include.card.headiframe %}
+    <iframe class="card-image" src="/news/media/{{include.card.headiframe}}">
+    </iframe>
+  {% else %}
+    <video class="card-image" controls=true>
+      <source src="/news/media/{{include.card.headvideo}}" type="video/mp4">
+    </video>
+  {% endif %}
+</div>

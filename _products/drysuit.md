@@ -3,6 +3,7 @@
   important: gallery.html
   product-imagesrc: Dry_suit_front-entry.jpg
   productname: Dry suit
+  footer: product.html
   price: £220.00
 ---
 Dry suit suitable for all climates, decent quaility.

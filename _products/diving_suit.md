@@ -2,6 +2,7 @@
   layout: card
   important: gallery.html
   product-imagesrc: Diving_suit_neoprene.jpg
+  footer: product.html
   productname: Neoprene Diving Suit
   price: £120.00
 ---

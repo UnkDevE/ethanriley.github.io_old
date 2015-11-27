@@ -1,8 +1,8 @@
 ---
 layout: newscard
 collection: about_us
-important: newsline.html
-headimage: Penguins.jpg
+important: newsmedia.html
+headvideo: windwaves.mp4
 root: true
 title : About us/find us
 permalink: /aboutus/

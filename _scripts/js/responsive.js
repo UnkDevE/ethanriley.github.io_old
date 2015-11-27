@@ -43,7 +43,6 @@ function mainmedia(type, srclink){
   }
   $(id).attr('src', srclink);
   $(id).css('display', 'block');
-
 }
 
 $(document).ready(function() {
@@ -53,7 +52,7 @@ $(document).ready(function() {
   extendElipsisCutoff(".card-elipsis");
 //  $('.card-gallery-bar').css('width');
   $('button').click(function(){
-    $('.card-data-column').append("<p>thankyou for your custom we shall get back to you shortly</p>");
+    $('.card-data-column').append("<p>thankyou for filling out the form. We will shortly email you with our contact details</p>");
     $('.card-important').append("<p>thankyou for your custom we shall get back to you shortly</p>");
   });
 }

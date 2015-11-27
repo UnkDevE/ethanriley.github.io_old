@@ -13,7 +13,7 @@ layout: default
             {% else if page.productname != null%}
               <h1 class="card-header">{{page.productname}} </h1>
             {% else %}
-              <h1 class="card-header">{{page.title}} </h1>
+              <h1 class="card-header">{{page.title}}</h1>
             {% endif %}
             {{ content }}
             {% if page.footer != null and include.root == null %}

@@ -2,6 +2,7 @@
   layout: card
   important: gallery.html
   product-imagesrc: Snorkel.jpg
+  footer: product.html
   productname: Snorkel
   price: £12.00
 ---
