@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="card-layout-matrix">
   <div class="card-fullscreen style">
-      <div class="card-data-colum">
+      <div class="card-data-column">
           {% if page.important != null %}
               {% include {{page.important}} card=page snippet=false%}
           {% endif %}
@@ -11,8 +11,6 @@ layout: default
             <div class="card-heading">
               {% if page.header != null %}
                   <h1 class="card-header">{{page.header}} </h1>
-              {% else if page.productname != null%}
-                <h1 class="card-header">{{page.productname}} </h1>
               {% else %}
                 <h1 class="card-header">{{page.title}} </h1>
               {% endif %}

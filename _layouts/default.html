@@ -3,27 +3,27 @@
 {% include head.html %}
 
 <html>
-<body>
-
-  <div class="navbar">
+<body >
+  <div class="navbar"  >
     <h2 id="navbar-title">{{site.title}}</h2>
     <div id="navbar-content">
       {% for ipage in site.pages %}
           {% if ipage.title != null %}
-            <div>
-              {% if ipage.title != page.title %}
+            <div >
                 {% if ipage.root == true and ipage.collection != null and ipage.title != "Shop" %}
                   <a onclick="dropdown('{{ipage.collection}}')" class="card-link"><h3>{{ipage.title}}</h3></a>
-                  <div class="dropdown" id="drop_{{ipage.collection}}">
+                  <div class="dropdown" id="drop_{{ipage.collection}}" >
                     {% if ipage.title != "News." %}
-                      <a href="{{ipage.url}}"><h5>{{ipage.title}}</h5></a>
+                      <a href="{{ipage.url}}">
+                          <h5 {% if ipage.title == page.title %}class="current-link"{% endif %}>{{ipage.title}}</h5>
+                      </a>
                     {% endif %}
                     {% for subpage in site.[ipage.collection] %}
                     <div>
                       <a href="{{subpage.url}}">
-                        <h5>
+                        <h5 {% if subpage.title == page.title or subpage.header == page.header %}class="current-link"{% endif %}>
                         {% if subpage.title != null %}{{subpage.title}}{% else %}{{subpage.header}}{% endif %}
-                      </h5>
+                        </h5>
                     </a>
                     </div>
                   {% endfor %}
@@ -31,7 +31,6 @@
                 {% elsif ipage.root == true %}
                     <a href="{{ipage.url}}"><h3>{{ipage.title}}</h3></a>
                 {% endif %}
-              {% endif %}
             </div>
           {% endif %}
       {% endfor %}

@@ -162,15 +162,16 @@
         width: auto;
       }
 }
-.card-data-colum{
+.card-data-column{
   @extend .card-content;
-  text-align: center;
   width: 100%;
   hr{
     width:100%;
     background-color: $grey;
   }
-
+}
+.card-header{
+    text-align: center;
 }
 .card-elipsis{
   max-height: 6em;

@@ -4,7 +4,9 @@ function navbaropen(){
 }
 function dropdown(id){
   element="#drop_"+id;
-  $(element).css('height', '100%');
+  $(element).css('height', '7.5vh');
+  $(element).css('opacity', '1');
+  $(element+":before").css('color', '#B0BEC5');
 }
 
 function navbarclose(){
@@ -51,10 +53,8 @@ $(document).ready(function() {
   extendElipsisCutoff(".card-elipsis");
 //  $('.card-gallery-bar').css('width');
   $('button').click(function(){
+    $('.card-data-column').append("<p>thankyou for your custom we shall get back to you shortly</p>");
     $('.card-important').append("<p>thankyou for your custom we shall get back to you shortly</p>");
-  });
-  $('button').click(function(){
-    $('.card-data-colum').append("<p>thankyou for your custom we shall get back to you shortly</p>");
   });
 }
 )

@@ -1,5 +1,3 @@
-
-
 #topbar{
   position: fixed;
   z-index: 2;
@@ -81,49 +79,52 @@
   width: 14.75em;
   height: 100%;
   box-shadow: 0 0 0.95em $boxshadowgrad1;
+  .current-link{
+    color:$linkblue;    
+  }
+  #navbar-title{
+    position: relative;
+    top:0em;
+    background-color: $grey;
+    padding: 1em;
+    margin:0;
+  }
   #navbar-content{
-    text-align: left;
-    h3{
-      margin:0;
-      padding: 0;
-      font-size: 1.45em;
-    }
-    a{
-      padding: 1.4em;
-      text-decoration: none;
-      margin: 0;
-      display: block;
-      color:$darkgrey;
-    }
-    a:hover{
-      background-color: $bluegreyhover;
-    }
-    #navbar-title{
-      top:0em;
-      background-color: $grey;
-      padding: 1em;
-      margin:0;
-    }
-    .dropdown{
-      display: block;
-      position: relative;
-      left:20%;
-      margin:0;
-      transition: all 0.875s ease;
-      height: 0;
-      overflow: hidden;
-      a{
+      text-align: left;
+      h3{
         margin:0;
         padding: 0;
+        font-size: 1.45em;
+      }
+      a{
+        padding: 1.4em;
+        text-decoration: none;
+        margin: 0;
+        display: block;
+        color:$darkgrey;
       }
       a:hover{
-        background-color: #EEEEEE;
+        background-color: $bluegreyhover;
       }
-      #{headings(1,6)}{
-        margin:0;
-        margin-bottom:1.5em;
-        left:50%;
-      }
+      .dropdown{
+        @extend %hidden-appear;
+        display: block;
+        position: relative;
+        left: 20%;
+        opacity: 0;
+        height: 0;
+        a{
+          margin:0;
+          padding: 0;
+        }
+        a:hover{
+          background-color: #EEEEEE;
+        }
+        #{headings(1,6)}{
+          margin:0;
+          margin-bottom:1.5em;
+          left:50%;
+        }
     }
   }
 }
@@ -144,8 +145,3 @@
     border-radius: 100%;
   }
 }
-
-
-
-
-
