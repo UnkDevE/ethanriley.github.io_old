@@ -9,7 +9,7 @@
     <div id="navbar-content">
       {% for ipage in site.pages %}
           {% if ipage.title != null %}
-            <div >
+            <div>
                 {% if ipage.root == true and ipage.collection != null and ipage.title != "Shop" %}
                   <a onclick="dropdown('{{ipage.collection}}')" class="card-link"><h3>{{ipage.title}}</h3></a>
                   <div class="dropdown" id="drop_{{ipage.collection}}" >
