@@ -5,6 +5,8 @@
   productname: Dry suit
   footer: product.html
   price: £220.00
+  image-gallery:
+    Buzo.jpg
 ---
 Dry suit suitable for all climates, decent quaility.
 This Dry suit is used for the cold seas. Planning a winter vacation? order this now.

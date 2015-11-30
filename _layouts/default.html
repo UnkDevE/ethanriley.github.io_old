@@ -5,7 +5,7 @@
 <html>
 <body >
   <div class="navbar"  >
-    <h2 id="navbar-title">{{site.title}}</h2>
+    <a href="/"><h2 id="navbar-title">{{site.title}}</h2></a>
     <div id="navbar-content">
       {% for ipage in site.pages %}
           {% if ipage.title != null %}
@@ -21,8 +21,14 @@
                     {% for subpage in site.[ipage.collection] %}
                     <div>
                       <a href="{{subpage.url}}">
-                        <h5 {% if subpage.title == page.title or subpage.header == page.header %}class="current-link"{% endif %}>
-                        {% if subpage.title != null %}{{subpage.title}}{% else %}{{subpage.header}}{% endif %}
+                        <h5 {% if subpage.title == page.title or subpage.header == page.header %}
+                                {% unless page.productname == null %}
+                                      class="current-link"
+                                {% endunless %}
+                        {% endif %}>
+
+                          {% if subpage.title != null  %}{{subpage.title}}{% elsif subpage.header != null %}{{subpage.header}}{% else %}shop{% endif %}
+
                         </h5>
                     </a>
                     </div>
@@ -45,10 +51,14 @@
               </div>
           </div>
           <div id="title">
+            {% if page.title != null %}
                 <span>{{page.title}}</span>
+            {% else %}
+                <span>{{page.header}}</span>
+            {% endif %}
           </div>
           <a href="/">
-            <img id="logo" src="_images/logo.png">
+            <img id="logo" src="/_images/logo.png">
           </a>
       </div>
 

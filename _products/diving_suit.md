@@ -5,6 +5,8 @@
   footer: product.html
   productname: Neoprene Diving Suit
   price: £120.00
+  embed-gallery:
+    www.youtube.com/embed/NRdxsuSCJyM
 ---
 Diving suit suitable for most climates, Exellent quaility.
 This Diving suit is perfect for all you diving needs wether you are an ameteur

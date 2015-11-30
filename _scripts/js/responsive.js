@@ -32,11 +32,11 @@ function mainmedia(type, srclink){
   if(id !== "#main_img"){
     $("#main_img").css('display','none');
   }
-  if(id !== "#main_video"){
-    $("#main_video").css('display','none');
+  else if(id !== "#main_video"){
+    $("#main_iframe").css('display','none');
   }
   else{
-    $("#main_iframe").css('display','none');
+    $("#main_video").css('display','none');
   }
   if(id === "#main_iframe"){
     srclink = "http://"+srclink;
