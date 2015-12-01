@@ -32,7 +32,7 @@
     display: flex;
     margin:auto;
     height:20%;
-    width: auto;
+    width:auto;
     #main_img{
       @extend .main_media;
       max-width: 45vw;
@@ -47,6 +47,9 @@
   height: 45%;
   overflow:hidden;
   margin: auto;
+  .card-image-container{
+      width: 45vw;
+  }
 }
 .card-gallery-bar{
   margin: auto;
@@ -172,6 +175,8 @@
       p{
         height: 85%;
         width: auto;
+        margin-left:1em;
+        margin-right:1em;
       }
 }
 .card-data-column{
@@ -186,7 +191,8 @@
   }
   p{
     position: relative;
-    left:1.5em;
+    margin-left:1.5em;
+    margin-right:1.5em;
   }
 }
 .card-header{
