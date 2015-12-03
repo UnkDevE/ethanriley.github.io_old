@@ -1,5 +1,5 @@
 ---
-  layout: newscard
+  layout: newsCard
   header: website is here.
   important: newsmedia
   headimage: logo.png
