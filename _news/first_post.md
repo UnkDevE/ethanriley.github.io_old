@@ -2,6 +2,6 @@
   layout: newscard
   header: website is here.
   important: newsmedia.html
-  headimage: logo.png
+  headimage: newslogo.png
 ---
-hello how do like our new website? tell us on our social media below. 
+hello how do like our new website? tell us on our social media below.
