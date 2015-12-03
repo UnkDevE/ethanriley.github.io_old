@@ -1,6 +1,8 @@
 function navbaropen(){
     fadein('.overlay', 3);
     slidein('.navbar', 'left', '0%');
+    slidein('#advert', 'top', '80%');
+    fadein('#advert', 4);
 }
 function dropdown(id){
   element="#drop_"+id;
@@ -11,7 +13,9 @@ function dropdown(id){
 
 function navbarclose(){
     slideout('.navbar', 'left', '-100%');
+    slideout('#advert', 'top', '120%');
     fadeout('.overlay');
+    fadein('#advert');
 }
 
 function extendElipsisCutoff(classname){
